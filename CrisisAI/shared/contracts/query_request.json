@@ -1,0 +1,10 @@
+{
+  "question": "How many fires in Mumbai last hour?",
+  "filters": {
+    "area": "Mumbai",
+    "type": "fire",
+    "severity": null
+  },
+  "use_grounding": false,
+  "stream": true
+}

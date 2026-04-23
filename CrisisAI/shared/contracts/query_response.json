@@ -1,0 +1,9 @@
+{
+  "answer": "Based on current data, there were 5 fires in Mumbai in the last hour, with 2 marked as CRITICAL severity.",
+  "supporting_incidents": [
+    "incident_abc_1710000000",
+    "incident_def_1710001000"
+  ],
+  "recommended_action": "Deploy 3 units to Dharavi and 2 units to Bandra.",
+  "data_freshness": "2024-03-09T15:00:00Z"
+}

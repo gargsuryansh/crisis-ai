@@ -1,0 +1,17 @@
+{
+  "session_id": "firebase_uid_789_vj23nx",
+  "response": "1. Evacuate the building immediately using the stairs. Do not use elevators.\n2. Call the fire department at 101.\n3. Stay low to the ground to avoid smoke inhalation.\n4. If you see others, guide them to the nearest exit.",
+  "crisis_type": "unknown",
+  "severity": "LOW",
+  "emergency_numbers": [
+    "112",
+    "101"
+  ],
+  "sources": [
+    "NDMA fire safety guidelines p.12",
+    "Mumbai Fire Department Protocols"
+  ],
+  "confidence": 0.87,
+  "next_state": "IMMEDIATE_ACTION",
+  "stream": true
+}

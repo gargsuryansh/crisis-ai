@@ -1,0 +1,11 @@
+{
+  "session_id": "firebase_uid_789_vj23nx",
+  "query": "There is a massive fire in the building across the street, people are trapped.",
+  "mode": "online",
+  "location": {
+    "lat": 19.076,
+    "lng": 72.877
+  },
+  "conversation_state": "INTAKE",
+  "language_hint": "en"
+}

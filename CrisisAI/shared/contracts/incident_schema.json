@@ -1,0 +1,21 @@
+{
+  "incidents": [
+    {
+      "id": "incident_abc123_1710000000",
+      "type": "fire",
+      "severity": "HIGH",
+      "location": {
+        "lat": 19.076,
+        "lng": 72.877,
+        "area_name": "Dharavi, Mumbai"
+      },
+      "source_text": "Large fire reported near the main market in Dharavi. Firefighters on scene.",
+      "source_platform": "twitter",
+      "classified_at": "2024-03-09T14:30:00Z",
+      "status": "open",
+      "confidence": 0.95
+    }
+  ],
+  "total": 1,
+  "high_severity_count": 1
+}
