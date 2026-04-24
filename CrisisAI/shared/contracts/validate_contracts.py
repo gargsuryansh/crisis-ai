@@ -3,7 +3,7 @@ import sys
 from enum import Enum
 from typing import List, Optional, Union
 from pathlib import Path
-from pydantic import BaseModel, Field, ValidationError
+from pydantic import BaseModel, Field, ValidationError, validator
 
 # --- Enums ---
 
