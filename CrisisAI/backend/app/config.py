@@ -17,8 +17,8 @@ GOOGLE_MAPS_API_KEY = os.getenv("GOOGLE_MAPS_API_KEY")
 TWITTER_BEARER_TOKEN = os.getenv("TWITTER_BEARER_TOKEN")
 
 # Vector Database (FAISS) - Online
-FAISS_INDEX_PATH = os.getenv("FAISS_INDEX_PATH", "data/embeddings/faiss_index_768.bin")
-FAISS_METADATA_PATH = os.getenv("FAISS_METADATA_PATH", "data/embeddings/metadata_768.json")
+FAISS_INDEX_PATH = os.getenv("FAISS_INDEX_PATH", "data/embeddings/faiss_index_3072.bin")
+FAISS_METADATA_PATH = os.getenv("FAISS_METADATA_PATH", "data/embeddings/metadata_3072.json")
 
 # Vector Database (FAISS) - Offline/Mobile
 FAISS_INDEX_PATH_OFFLINE = os.getenv("FAISS_INDEX_PATH_OFFLINE", "data/embeddings/faiss_index_384.bin")
