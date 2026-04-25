@@ -1,2 +1,9 @@
-
+.idea/
+.env
+.env.local
+*.env
+*.env.local
+!.env.example
+!.env.local.example
 chroma_db/
+*.bin
