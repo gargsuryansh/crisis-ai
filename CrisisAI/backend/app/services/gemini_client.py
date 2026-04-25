@@ -3,6 +3,11 @@ import asyncio
 import logging
 from datetime import datetime, timedelta
 from typing import AsyncGenerator, Optional
+from dotenv import load_dotenv
+
+# Load environment variables
+load_dotenv()
+
 import google.generativeai as genai
 from google.generativeai.types import HarmCategory, HarmBlockThreshold
 from groq import Groq
@@ -22,6 +27,14 @@ class GeminiClient:
         self.gemini_api_key = config.GEMINI_API_KEY
         self.groq_api_key = config.GROQ_API_KEY
 
+        # Groq model configuration
+        self.groq_model = os.getenv("GROQ_MODEL", "llama-3.1-8b-instant")
+        self.GROQ_FALLBACK_MODELS = [
+            os.getenv("GROQ_MODEL", "llama-3.1-8b-instant"),
+            "llama-3.1-8b-instant",
+            "gemma2-9b-it"
+        ]
+
         # Configure Gemini
         if self.gemini_api_key:
             genai.configure(api_key=self.gemini_api_key)
@@ -30,8 +43,7 @@ class GeminiClient:
         self.groq_client = Groq(api_key=self.groq_api_key) if self.groq_api_key else None
 
         # Safety Settings - BLOCK_NONE IS INTENTIONAL
-        # Emergency content (fires, chemical leaks, etc.) is often blocked by Gemini defaults.
-        # CrisisAI needs to discuss these without filtering for disaster response.
+        # BLOCK_NONE is intentional — emergency content is often blocked by default safety settings.
         self.safety_settings = {
             HarmCategory.HARM_CATEGORY_HARASSMENT: HarmBlockThreshold.BLOCK_NONE,
             HarmCategory.HARM_CATEGORY_HATE_SPEECH: HarmBlockThreshold.BLOCK_NONE,
@@ -74,19 +86,26 @@ class GeminiClient:
             logger.warning("Circuit breaker OPEN. Switching to Groq fallback for 5 minutes.")
 
     def _groq_generate(self, prompt: str) -> str:
-        """Fallback generation using Groq Llama 3.1."""
+        """Fallback generation using Groq fallback models."""
         if not self.groq_client:
             raise RuntimeError("Groq API key missing during fallback attempt.")
         
-        try:
-            chat_completion = self.groq_client.chat.completions.create(
-                messages=[{"role": "user", "content": prompt}],
-                model="llama-3.1-70b-versatile",
-            )
-            return chat_completion.choices[0].message.content or ""
-        except Exception as e:
-            logger.error(f"Groq fallback failed: {e}")
-            raise RuntimeError(f"Both Gemini and Groq failed: {e}")
+        last_error = ""
+        for current_model in self.GROQ_FALLBACK_MODELS:
+            try:
+                completion = self.groq_client.chat.completions.create(
+                    model=current_model,
+                    messages=[{"role": "user", "content": prompt}],
+                    temperature=0.7,
+                    max_tokens=1024
+                )
+                return completion.choices[0].message.content.strip()
+            except Exception as e:
+                logger.warning(f"Groq model {current_model} failed: {e}")
+                last_error = str(e)
+                continue
+        
+        raise RuntimeError(f"Both Gemini and Groq failed... {last_error}")
 
     def generate(self, prompt: str, json_mode: bool = False) -> str:
         """Generates content using Gemini or fallback to Groq."""
