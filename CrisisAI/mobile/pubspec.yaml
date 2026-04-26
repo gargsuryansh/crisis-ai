@@ -64,6 +64,7 @@ flutter:
   assets:
     - assets/faiss_index/faiss_index_384.bin
     - assets/faiss_index/metadata_384.json
+    - assets/protocols/emergency_protocols_enhanced.json
 
   # To add assets to your application, add an assets section, like this:
   # assets:

@@ -1,13 +1,16 @@
-// Day 2 — Saanvi
-// Chat screen for CrisisAI citizen emergency queries
-// Uses ApiClient.streamChat() for real-time streaming responses
+// Day 3 — Saanvi
+// Chat screen with online streaming + offline protocol retrieval
+// Supports: API streaming (online) and weighted keyword RAG (offline)
 // Matches POST /api/v1/chat/stream contract (Section 3)
 
+import 'dart:async';
 import 'package:flutter/material.dart';
 import '../services/api_client.dart';
 import '../models/chat_request.dart';
-// ignore: unused_import
-import '../models/chat_response.dart';
+import '../services/connectivity_service.dart';
+import '../services/offline_rag_service.dart';
+import '../services/gemini_nano_service.dart';
+import '../services/mediapipe_service.dart';
 
 class ChatMessage {
   final String text;
@@ -40,8 +43,47 @@ class _ChatScreenState extends State<ChatScreen> {
   bool _isLoading = false;
   String _currentStreamingText = '';
 
+  final ConnectivityService _connectivityService = ConnectivityService();
+  final OfflineRagService _offlineRagService = OfflineRagService();
+  final GeminiNanoService _geminiNanoService = GeminiNanoService();
+  final MediaPipeService _mediaPipeService = MediaPipeService();
+
+  bool _isOffline = false;
+  String _offlineMessage = '';
+  StreamSubscription<bool>? _connectivitySubscription;
+  late final Future<void> _protocolsReady;
+
+  @override
+  void initState() {
+    super.initState();
+    _protocolsReady = _offlineRagService.loadProtocols();
+    _initializeConnectivity();
+    _connectivitySubscription =
+        _connectivityService.connectionStream().listen((online) {
+      if (!mounted) return;
+      setState(() {
+        _isOffline = !online;
+        _offlineMessage = _isOffline
+            ? "You are offline. Using local emergency protocols from device."
+            : "";
+      });
+    });
+  }
+
+  Future<void> _initializeConnectivity() async {
+    final online = await _connectivityService.isOnline();
+    if (!mounted) return;
+    setState(() {
+      _isOffline = !online;
+      _offlineMessage = _isOffline
+          ? "You are offline. Using local emergency protocols from device."
+          : "";
+    });
+  }
+
   @override
   void dispose() {
+    _connectivitySubscription?.cancel();
     _queryController.dispose();
     _scrollController.dispose();
     _apiClient.dispose();
@@ -68,7 +110,7 @@ class _ChatScreenState extends State<ChatScreen> {
       _isLoading = true;
       _currentStreamingText = '';
     });
-    
+
     Future.delayed(const Duration(milliseconds: 50), _scrollToBottom);
 
     final request = ChatRequest(
@@ -80,34 +122,103 @@ class _ChatScreenState extends State<ChatScreen> {
       languageHint: null,
     );
 
-    try {
-      await for (final chunk in _apiClient.streamChat(request)) {
+    final bool isOnline = await _connectivityService.isOnline();
+
+    if (isOnline) {
+      try {
+        // Priority 1: Online Streaming
+        await for (final chunk in _apiClient.streamChat(request)) {
+          setState(() {
+            _currentStreamingText += chunk;
+          });
+          _scrollToBottom();
+        }
+
         setState(() {
-          _currentStreamingText += chunk;
+          _messages.add(ChatMessage(
+            text: _currentStreamingText,
+            isUser: false,
+          ));
+          _currentStreamingText = '';
+          _isLoading = false;
         });
         _scrollToBottom();
+      } catch (_) {
+        try {
+          // Fallback to non-stream chat if streaming fails
+          final response = await _apiClient.sendChat(request);
+          setState(() {
+            _messages.add(ChatMessage(
+              text: response.response,
+              isUser: false,
+              crisisType: response.crisisType,
+              severity: response.severity,
+              emergencyNumbers: response.emergencyNumbers,
+            ));
+            _isLoading = false;
+          });
+          _scrollToBottom();
+        } catch (_) {
+          // Both online methods failed, switch to offline
+          setState(() {
+            _messages.add(const ChatMessage(
+              text:
+                  'Backend unavailable. Switching to offline emergency protocols...',
+              isUser: false,
+            ));
+          });
+          await _handleOfflineResponse(text);
+        }
       }
-
-      setState(() {
-        _messages.add(ChatMessage(
-          text: _currentStreamingText,
-          isUser: false,
-        ));
-        _currentStreamingText = '';
-        _isLoading = false;
-      });
-      _scrollToBottom();
-    } catch (e) {
-      setState(() {
-        _messages.add(const ChatMessage(
-          text: 'Error: Could not connect to server. Please check your connection.',
-          isUser: false,
-        ));
-        _isLoading = false;
-        _currentStreamingText = '';
-      });
-      _scrollToBottom();
+    } else {
+      await _handleOfflineResponse(text);
     }
+    _scrollToBottom();
+  }
+
+  Future<void> _handleOfflineResponse(String query) async {
+    await _protocolsReady;
+
+    final protocol = _offlineRagService.getBestProtocol(query);
+    final rawProtocolText = _offlineRagService.buildOfflineResponse(protocol);
+    final numbers =
+        _offlineRagService.extractEmergencyNumbers(protocol['emergency_numbers']);
+
+    String? responseText;
+
+    // Priority 2: Gemini Nano (AICore)
+    if (await _geminiNanoService.isAvailable()) {
+      try {
+        final prompt = _mediaPipeService.buildPrompt(query, rawProtocolText);
+        responseText = await _geminiNanoService.generate(prompt);
+      } catch (_) {
+        // Fall through
+      }
+    }
+
+    // Priority 3: MediaPipe (Gemma)
+    if (responseText == null && await _mediaPipeService.isAvailable()) {
+      try {
+        final prompt = _mediaPipeService.buildPrompt(query, rawProtocolText);
+        responseText = await _mediaPipeService.generate(prompt);
+      } catch (_) {
+        // Fall through
+      }
+    }
+
+    // Priority 4: Raw RAG Protocol
+    responseText ??= rawProtocolText;
+
+    setState(() {
+      _messages.add(ChatMessage(
+        text: responseText!,
+        isUser: false,
+        crisisType: protocol['crisis_type']?.toString(),
+        severity: protocol['severity']?.toString(),
+        emergencyNumbers: numbers,
+      ));
+      _isLoading = false;
+    });
   }
 
   Color _getSeverityColor(String severity) {
@@ -240,6 +351,20 @@ class _ChatScreenState extends State<ChatScreen> {
       ),
       body: Column(
         children: [
+          if (_isOffline)
+            Container(
+              width: double.infinity,
+              color: Colors.deepOrange,
+              padding: const EdgeInsets.all(10),
+              child: Text(
+                _offlineMessage.isNotEmpty
+                    ? _offlineMessage
+                    : "OFFLINE MODE — Using local protocols",
+                style: const TextStyle(
+                    color: Colors.white, fontWeight: FontWeight.bold),
+                textAlign: TextAlign.center,
+              ),
+            ),
           Expanded(
             child: ListView.builder(
               controller: _scrollController,
