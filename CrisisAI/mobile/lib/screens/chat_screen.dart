@@ -11,6 +11,8 @@ import '../services/connectivity_service.dart';
 import '../services/offline_rag_service.dart';
 import '../services/gemini_nano_service.dart';
 import '../services/mediapipe_service.dart';
+import '../services/firestore_service.dart';
+import 'package:firebase_auth/firebase_auth.dart';
 
 class ChatMessage {
   final String text;
@@ -47,17 +49,22 @@ class _ChatScreenState extends State<ChatScreen> {
   final OfflineRagService _offlineRagService = OfflineRagService();
   final GeminiNanoService _geminiNanoService = GeminiNanoService();
   final MediaPipeService _mediaPipeService = MediaPipeService();
+  final FirestoreService _firestoreService = FirestoreService();
 
   bool _isOffline = false;
   String _offlineMessage = '';
   StreamSubscription<bool>? _connectivitySubscription;
+  StreamSubscription? _notificationSubscription;
   late final Future<void> _protocolsReady;
+  String? _firebaseUid;
 
   @override
   void initState() {
     super.initState();
+    _initializeUser();
     _protocolsReady = _offlineRagService.loadProtocols();
     _initializeConnectivity();
+    Future.microtask(() => _setupFirestore(context));
     _connectivitySubscription =
         _connectivityService.connectionStream().listen((online) {
       if (!mounted) return;
@@ -81,9 +88,42 @@ class _ChatScreenState extends State<ChatScreen> {
     });
   }
 
+  Future<void> _initializeUser() async {
+    await _firestoreService.signInAnonymously();
+    if (mounted) {
+      setState(() {
+        _firebaseUid = FirebaseAuth.instance.currentUser?.uid;
+      });
+    }
+  }
+
+  void _setupFirestore(BuildContext context) {
+    _notificationSubscription =
+        _firestoreService.listenForResponse(_firebaseUid).listen((note) {
+      if (note != null && mounted) {
+        ScaffoldMessenger.of(context).showSnackBar(
+          SnackBar(
+            content: Row(
+              children: [
+                const Icon(Icons.verified_user_outlined, color: Colors.white),
+                const SizedBox(width: 10),
+                Expanded(
+                    child: Text(note, style: const TextStyle(fontSize: 16))),
+              ],
+            ),
+            backgroundColor: Colors.green[600],
+            duration: const Duration(seconds: 10),
+            behavior: SnackBarBehavior.floating,
+          ),
+        );
+      }
+    });
+  }
+
   @override
   void dispose() {
     _connectivitySubscription?.cancel();
+    _notificationSubscription?.cancel();
     _queryController.dispose();
     _scrollController.dispose();
     _apiClient.dispose();
@@ -114,7 +154,8 @@ class _ChatScreenState extends State<ChatScreen> {
     Future.delayed(const Duration(milliseconds: 50), _scrollToBottom);
 
     final request = ChatRequest(
-      sessionId: 'test_session_${DateTime.now().millisecondsSinceEpoch}',
+      sessionId: _firebaseUid ??
+          'test_session_${DateTime.now().millisecondsSinceEpoch}',
       query: text,
       mode: ChatMode.online,
       location: const ChatLocation(lat: null, lng: null),
