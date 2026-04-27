@@ -1,0 +1,53 @@
+# =============================================================================
+# CrisisAI — Docker Compose Override (Local Dev Convenience)
+# Google Solution Challenge 2026
+#
+# This file is automatically merged with docker-compose.yml.
+# It adds dev-friendly overrides:
+#   - Live code reload via bind-mount (no rebuild needed)
+#   - Dashboard runs Vite dev server instead of nginx
+#   - Extra debug environment variables
+#
+# Usage (backend only, fastest local workflow):
+#   docker compose up backend --build
+# =============================================================================
+
+services:
+  backend:
+    # Bind-mount source for live reload (overrides COPY in Dockerfile)
+    volumes:
+      - ./backend:/app/backend:ro
+      - ./shared:/app/shared:ro
+      - ./data:/app/data:ro
+      - ./chroma_db:/app/chroma_db
+    environment:
+      - ENVIRONMENT=development
+      - LOG_LEVEL=debug
+    # Override CMD to enable hot-reload
+    command: >
+      uvicorn backend.app.main:app
+      --host 0.0.0.0
+      --port 8080
+      --reload
+      --reload-dir /app/backend
+
+  # Override dashboard to use Vite dev server (when dashboard is scaffolded)
+  dashboard:
+    # Comment out the build and use node image for dev server instead
+    # Uncomment below once dashboard has a valid package.json
+    profiles:
+      - dashboard-dev
+    build: !reset null
+    image: node:20-alpine
+    working_dir: /app
+    volumes:
+      - ./dashboard:/app
+      - dashboard_node_modules:/app/node_modules
+    ports:
+      - "5173:5173"
+    command: sh -c "npm install && npm run dev -- --host 0.0.0.0"
+    environment:
+      - VITE_API_URL=http://localhost:8000
+
+volumes:
+  dashboard_node_modules:

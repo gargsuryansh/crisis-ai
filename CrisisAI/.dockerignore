@@ -1,0 +1,69 @@
+# =============================================================================
+# CrisisAI — .dockerignore
+# Keep the Docker build context lean and secret-free.
+# =============================================================================
+
+# ── Secrets (NEVER include in images) ────────────────────────────────────────
+.env
+*.env
+.env.*
+.env.local
+firebase_service_account.json
+service_account.json
+google-services.json
+**/google-services.json
+**/service_account*.json
+
+# ── ChromaDB persistence (mounted at runtime) ───────────────────────────────
+chroma_db/
+
+# ── FAISS indexes (mounted at runtime, never baked in) ───────────────────────
+*.bin
+data/embeddings/*.bin
+
+# ── Python caches ────────────────────────────────────────────────────────────
+**/__pycache__/
+**/*.pyc
+**/*.pyo
+**/*.egg-info/
+*.egg
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# ── Node / Dashboard ────────────────────────────────────────────────────────
+node_modules/
+dashboard/node_modules/
+dashboard/dist/
+dashboard/.env.local
+dashboard/.env
+
+# ── Build / CI artifacts ────────────────────────────────────────────────────
+build/
+dist/
+*.tar.gz
+*.whl
+
+# ── Version control & IDE ───────────────────────────────────────────────────
+.git/
+.github/
+.gitignore
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ── Mobile app (not needed in backend image) ─────────────────────────────────
+mobile/
+
+# ── Scratch / temp ───────────────────────────────────────────────────────────
+scratch/
+*.log
+tmp/
+
+# ── Deployment configs (not needed inside image) ─────────────────────────────
+deployment/
+docker-compose*.yml
+Makefile
+README.md
+LICENSE
