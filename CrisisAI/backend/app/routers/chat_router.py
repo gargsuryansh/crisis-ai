@@ -5,7 +5,7 @@ import json
 import asyncio
 from typing import List, Dict, Any, Optional
 
-from fastapi import APIRouter
+from fastapi import APIRouter, WebSocket, WebSocketDisconnect
 from fastapi.responses import StreamingResponse
 from backend.app.models.chat_models import ChatRequest, ChatResponse
 from backend.app.services.agents.classifier_agent import classify
@@ -351,3 +351,171 @@ async def chat_stream(request: ChatRequest):
         },
     )
 
+# ===========================================================================
+# WebSocket Infrastructure  (NEW — Day 3)
+# React dashboard subscribes to /api/v1/ws for live incident push.
+# ===========================================================================
+
+
+class ConnectionManager:
+    """
+    Manages active WebSocket connections for the React dashboard.
+    Each connection may optionally subscribe with filters (severity, area).
+    """
+
+    def __init__(self):
+        # Each entry: {"ws": WebSocket, "filters": {"severity": ..., "area": ...}}
+        self.active_connections: List[Dict[str, Any]] = []
+
+    async def connect(self, websocket: WebSocket):
+        await websocket.accept()
+        self.active_connections.append({"ws": websocket, "filters": {}})
+        logger.info(f"WebSocket connected. Total clients: {len(self.active_connections)}")
+
+    def disconnect(self, websocket: WebSocket):
+        self.active_connections = [
+            c for c in self.active_connections if c["ws"] is not websocket
+        ]
+        logger.info(f"WebSocket disconnected. Total clients: {len(self.active_connections)}")
+
+    def set_filters(self, websocket: WebSocket, filters: Dict[str, str]):
+        for conn in self.active_connections:
+            if conn["ws"] is websocket:
+                conn["filters"] = filters
+                logger.info(f"WebSocket filters updated: {filters}")
+                break
+
+    def _matches(self, conn: Dict[str, Any], incident: Dict[str, Any]) -> bool:
+        """Returns True if the incident matches the client's subscription filters."""
+        filters = conn.get("filters", {})
+        if not filters:
+            return True  # No filters = receive everything
+
+        sev = filters.get("severity")
+        if sev and incident.get("severity", "").upper() != sev.upper():
+            return False
+
+        area = filters.get("area")
+        if area and area.lower() not in incident.get("area_name", "").lower():
+            return False
+
+        return True
+
+    async def broadcast(self, event: str, data: Dict[str, Any]):
+        """Sends an event to ALL connected clients (no filtering)."""
+        message = json.dumps({"event": event, "data": data})
+        stale: List[WebSocket] = []
+        for conn in self.active_connections:
+            try:
+                await conn["ws"].send_text(message)
+            except Exception:
+                stale.append(conn["ws"])
+        # Clean up dead connections
+        for ws in stale:
+            self.disconnect(ws)
+
+    async def broadcast_filtered(self, event: str, data: Dict[str, Any]):
+        """Sends an event only to clients whose filters match the incident."""
+        message = json.dumps({"event": event, "data": data})
+        stale: List[WebSocket] = []
+        for conn in self.active_connections:
+            if self._matches(conn, data):
+                try:
+                    await conn["ws"].send_text(message)
+                except Exception:
+                    stale.append(conn["ws"])
+        for ws in stale:
+            self.disconnect(ws)
+
+
+# Module-level manager instance
+ws_manager = ConnectionManager()
+
+
+# ---------------------------------------------------------------------------
+# Public broadcast helpers  (called from chroma_ingest.py / incident_router)
+# ---------------------------------------------------------------------------
+
+async def broadcast_new_incident(incident: dict):
+    """
+    Broadcasts a new incident to all matching WebSocket subscribers.
+    Call this from chroma_ingest.py after a successful ingest.
+
+    Event format:
+        {"event": "new_incident", "data": {incident object}}
+    """
+    logger.info(f"Broadcasting new_incident: {incident.get('id', '?')}")
+    await ws_manager.broadcast_filtered("new_incident", incident)
+
+
+async def broadcast_status_update(incident_id: str, new_status: str):
+    """
+    Broadcasts a status change to all WebSocket subscribers.
+
+    Event format:
+        {"event": "status_updated", "data": {"id": "...", "status": "responded"}}
+    """
+    logger.info(f"Broadcasting status_updated: {incident_id} → {new_status}")
+    await ws_manager.broadcast("status_updated", {"id": incident_id, "status": new_status})
+
+
+# ---------------------------------------------------------------------------
+# WebSocket endpoint:  ws://host/api/v1/ws
+# ---------------------------------------------------------------------------
+
+@router.websocket("/ws")
+async def websocket_endpoint(websocket: WebSocket):
+    """
+    WebSocket endpoint for the React authority dashboard.
+
+    Protocol:
+      Client → Server:  {"event": "subscribe", "filters": {"severity": "HIGH", "area": "Mumbai"}}
+      Server → Client:  {"event": "new_incident", "data": {...}}
+      Server → Client:  {"event": "status_updated", "data": {"id": "...", "status": "responded"}}
+      Server → Client:  {"event": "ping", "data": {}}
+    """
+    await ws_manager.connect(websocket)
+
+    # Background task: keep-alive ping every 30 seconds
+    async def ping_loop():
+        try:
+            while True:
+                await asyncio.sleep(30)
+                try:
+                    await websocket.send_text(
+                        json.dumps({"event": "ping", "data": {}})
+                    )
+                except Exception:
+                    break
+        except asyncio.CancelledError:
+            pass
+
+    ping_task = asyncio.create_task(ping_loop())
+
+    try:
+        while True:
+            raw = await websocket.receive_text()
+            try:
+                msg = json.loads(raw)
+                event_type = msg.get("event")
+
+                if event_type == "subscribe":
+                    filters = msg.get("filters", {})
+                    ws_manager.set_filters(websocket, filters)
+                    # Acknowledge subscription
+                    await websocket.send_text(
+                        json.dumps({"event": "subscribed", "data": {"filters": filters}})
+                    )
+                else:
+                    logger.debug(f"Unknown WS event: {event_type}")
+
+            except json.JSONDecodeError:
+                logger.warning(f"Invalid JSON from WebSocket client: {raw[:100]}")
+
+    except WebSocketDisconnect:
+        logger.info("WebSocket client disconnected normally.")
+    except Exception:
+        logger.exception("WebSocket error")
+    finally:
+        ping_task.cancel()
+        ws_manager.disconnect(websocket)

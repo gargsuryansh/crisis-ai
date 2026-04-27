@@ -2,8 +2,11 @@ import chromadb
 import os
 import time
 import logging
+import asyncio
 from hashlib import md5
 from typing import Dict, Any, Optional
+
+from backend.app.routers.chat_router import broadcast_new_incident
 
 # Setup logging
 logger = logging.getLogger(__name__)
@@ -59,8 +62,11 @@ def ingest_incident(text: str, metadata: Dict[str, Any]) -> str:
 
         logger.info(f"Ingested incident: {doc_id} | type={safe_meta.get('type', 'unknown')}")
 
-        # TODO (Day 3): Call broadcast_incident() for React WebSocket live push
-        # asyncio.run(broadcast_new_incident({'id': doc_id, **safe_meta, 'source_text': text}))
+        # Broadcast new incident to React dashboard via WebSocket
+        try:
+            asyncio.run(broadcast_new_incident({'id': doc_id, **safe_meta, 'source_text': text}))
+        except Exception as ws_err:
+            logger.warning(f"Failed to broadcast new incident to WebSocket: {ws_err}")
 
         return doc_id
 
