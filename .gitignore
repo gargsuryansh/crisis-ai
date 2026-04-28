@@ -1,0 +1,15 @@
+
+chroma_db/
+firebase_service_account.json
+
+# Secrets - never commit
+.env
+firebase_service_account.json
+service_account.json
+mobile/android/app/google-services.json
+
+# Generated/cache files
+__pycache__/
+*.pyc
+chroma_db/
+*.bin

@@ -1,0 +1,1922 @@
+[
+  {
+    "id": "fire_001",
+    "crisis_type": "fire",
+    "severity": "high",
+    "title": "Clothes Catch Fire (Stop, Drop, Roll)",
+    "source": "[{'org': 'Indian Red Cross Society / St John Ambulance Association (India)', 'document_title': 'Indian First Aid Manual, 7th Edition', 'year': '2016', 'page_or_section': 'Page 100', 'url': 'https://docslib.org/doc/13036594/first-aid-manual', 'org_type': 'national_authority', 'authority_level': 'national', 'last_verified': '2024-01-10'}]",
+    "timestamp": "2024-01-15"
+  },
+  {
+    "id": "fire_002",
+    "crisis_type": "fire",
+    "severity": "high",
+    "title": "Trapped in a Smoke-Filled Room",
+    "source": "[{'org': 'Directorate General Fire Services, Civil Defence & Home Guards (MHA)', 'document_title': 'Fire Prevention Awareness Materials', 'year': '2023', 'page_or_section': 'Mass Awareness Section', 'url': 'https://dgfscdhg.gov.in/fire-prevention', 'org_type': 'national_authority', 'authority_level': 'national', 'last_verified': '2024-01-10'}]",
+    "timestamp": "2024-01-15"
+  },
+  {
+    "id": "fire_003",
+    "crisis_type": "fire",
+    "severity": "high",
+    "title": "Evacuating a High-Rise Building During Fire",
+    "source": "[{'org': 'Bureau of Indian Standards (BIS)', 'document_title': 'National Building Code of India 2016, Part 4: Fire and Life Safety', 'year': '2016', 'page_or_section': 'Page 81 (Annex D: Guidelines for Fire Drill and Evacuation Procedures for High Rise Buildings)', 'url': 'https://dgfscdhg.gov.in/national-building-code-india-fire-and-life-safety', 'org_type': 'national_authority', 'authority_level': 'national', 'last_verified': '2024-01-10'}]",
+    "timestamp": "2024-01-15"
+  },
+  {
+    "id": "fire_004",
+    "crisis_type": "fire",
+    "severity": "medium",
+    "title": "Using a Portable Fire Extinguisher (PASS Method)",
+    "source": "[{'org': 'Directorate General Fire Services, Civil Defence & Home Guards (MHA)', 'document_title': 'Fire Prevention Awareness Materials', 'year': '2023', 'page_or_section': 'Mass Awareness Section', 'url': 'https://dgfscdhg.gov.in/fire-prevention', 'org_type': 'national_authority', 'authority_level': 'national', 'last_verified': '2024-01-10'}]",
+    "timestamp": "2024-01-15"
+  },
+  {
+    "id": "fire_005",
+    "crisis_type": "fire",
+    "severity": "low",
+    "title": "First Aid for Minor Burns (Superficial Burns)",
+    "source": "[{'org': 'Indian Red Cross Society / St John Ambulance Association (India)', 'document_title': 'Indian First Aid Manual, 7th Edition', 'year': '2016', 'page_or_section': 'Page 98', 'url': 'https://docslib.org/doc/13036594/first-aid-manual', 'org_type': 'national_authority', 'authority_level': 'national', 'last_verified': '2024-01-10'}]",
+    "timestamp": "2024-01-15"
+  },
+  {
+    "id": "fire_006",
+    "crisis_type": "fire",
+    "severity": "high",
+    "title": "Responding to an Electrical Fire",
+    "source": "[{'org': 'National Institute of Disaster Management (NIDM)', 'document_title': \"Do's and Don'ts for Common Disasters\", 'year': '2020', 'page_or_section': 'Fire Safety Section', 'url': 'https://nidm.gov.in', 'org_type': 'national_authority', 'authority_level': 'national', 'last_verified': '2024-01-10'}]",
+    "timestamp": "2024-01-15"
+  },
+  {
+    "id": "fire_007",
+    "crisis_type": "fire",
+    "severity": "high",
+    "title": "First Person to Discover a Fire",
+    "source": "[{'org': 'Directorate General Fire Services, Civil Defence & Home Guards (MHA)', 'document_title': 'Fire Prevention Awareness Materials', 'year': '2023', 'page_or_section': 'Mass Awareness Section', 'url': 'https://dgfscdhg.gov.in/fire-prevention', 'org_type': 'national_authority', 'authority_level': 'national', 'last_verified': '2024-01-10'}]",
+    "timestamp": "2024-01-15"
+  },
+  {
+    "id": "fire_008",
+    "crisis_type": "fire",
+    "severity": "critical",
+    "title": "Escape Route Blocked by Fire or Smoke",
+    "source": "[{'org': 'Bureau of Indian Standards (BIS)', 'document_title': 'National Building Code of India 2016, Part 4: Fire and Life Safety', 'year': '2016', 'page_or_section': 'Page 81 (Annex D Principles)', 'url': 'https://dgfscdhg.gov.in/national-building-code-india-fire-and-life-safety', 'org_type': 'national_authority', 'authority_level': 'national', 'last_verified': '2024-01-10'}]",
+    "timestamp": "2024-01-15"
+  },
+  {
+    "id": "fire_009",
+    "crisis_type": "fire",
+    "severity": "critical",
+    "title": "First Aid for Severe Burns (Deep Burns)",
+    "source": "[{'org': 'Indian Red Cross Society / St John Ambulance Association (India)', 'document_title': 'Indian First Aid Manual, 7th Edition', 'year': '2016', 'page_or_section': 'Page 99', 'url': 'https://docslib.org/doc/13036594/first-aid-manual', 'org_type': 'national_authority', 'authority_level': 'national', 'last_verified': '2024-01-10'}]",
+    "timestamp": "2024-01-15"
+  },
+  {
+    "id": "fire_010",
+    "crisis_type": "fire",
+    "severity": "high",
+    "title": "Kitchen Grease/Oil Fire in a Pan",
+    "source": "[{'org': 'Directorate General Fire Services, Civil Defence & Home Guards (MHA)', 'document_title': 'Fire Prevention Awareness Materials', 'year': '2023', 'page_or_section': 'Mass Awareness Section', 'url': 'https://dgfscdhg.gov.in/fire-prevention', 'org_type': 'national_authority', 'authority_level': 'national', 'last_verified': '2024-01-10'}]",
+    "timestamp": "2024-01-15"
+  },
+  {
+    "id": "fire_011",
+    "crisis_type": "fire",
+    "severity": "high",
+    "title": "First Aid for Smoke Inhalation",
+    "source": "[{'org': 'Indian Red Cross Society', 'document_title': 'First Aid Training Materials', 'year': '2016', 'page_or_section': 'Burns and Smoke Exposure Module', 'url': 'https://www.indianredcross.org/ircs/program/FA', 'org_type': 'national_authority', 'authority_level': 'national', 'last_verified': '2024-01-10'}]",
+    "timestamp": "2024-01-15"
+  },
+  {
+    "id": "fire_012",
+    "crisis_type": "fire",
+    "severity": "critical",
+    "title": "Trapped in a Car During Forest Fire",
+    "source": "[{'org': 'National Institute of Disaster Management (NIDM)', 'document_title': 'Forest Fire Disaster Management Manual', 'year': '2013', 'page_or_section': 'Page 101 (General Forest Fire Safety Tips for Family)', 'url': 'https://nidm.gov.in/PDF/pubs/Forest%20Fire%202013.pdf', 'org_type': 'national_authority', 'authority_level': 'national', 'last_verified': '2024-01-10'}]",
+    "timestamp": "2024-01-15"
+  },
+  {
+    "id": "fire_013",
+    "crisis_type": "fire",
+    "severity": "high",
+    "title": "Forest Fire Approaching: Shelter in Place",
+    "source": "[{'org': 'National Institute of Disaster Management (NIDM)', 'document_title': 'Forest Fire Disaster Management Manual', 'year': '2013', 'page_or_section': 'Page 101 (General Forest Fire Safety Tips for Family)', 'url': 'https://nidm.gov.in/PDF/pubs/Forest%20Fire%202013.pdf', 'org_type': 'national_authority', 'authority_level': 'national', 'last_verified': '2024-01-10'}]",
+    "timestamp": "2024-01-15"
+  },
+  {
+    "id": "fire_014",
+    "crisis_type": "fire",
+    "severity": "high",
+    "title": "Fire in a School: Orderly Evacuation",
+    "source": "[{'org': 'National Institute of Disaster Management (NIDM)', 'document_title': 'Fire Safety in School (Awareness Brochure)', 'year': '2020', 'page_or_section': 'School Safety Section', 'url': 'https://nidm.gov.in', 'org_type': 'national_authority', 'authority_level': 'national', 'last_verified': '2024-01-10'}]",
+    "timestamp": "2024-01-15"
+  },
+  {
+    "id": "fire_015",
+    "crisis_type": "fire",
+    "severity": "critical",
+    "title": "First Aid for Electrical Shock with Fire",
+    "source": "[{'org': 'Indian Red Cross Society / St John Ambulance Association (India)', 'document_title': 'Indian First Aid Manual, 7th Edition', 'year': '2016', 'page_or_section': 'Page 102', 'url': 'https://docslib.org/doc/13036594/first-aid-manual', 'org_type': 'national_authority', 'authority_level': 'national', 'last_verified': '2024-01-10'}]",
+    "timestamp": "2024-01-15"
+  },
+  {
+    "id": "fire_016",
+    "crisis_type": "fire",
+    "severity": "high",
+    "title": "Suspected LPG Leak (No Fire Yet)",
+    "source": "[{'org': 'Sikkim Fire & Emergency Service (State Government)', 'document_title': 'LPG Fire Safety Guidelines', 'year': '2020', 'page_or_section': 'LPG Safety Section', 'url': 'http://sikkimfire.nic.in/LPG_Fire_Safety.htm', 'org_type': 'national_authority', 'authority_level': 'national', 'last_verified': '2024-01-10'}]",
+    "timestamp": "2024-01-15"
+  },
+  {
+    "id": "fire_017",
+    "crisis_type": "fire",
+    "severity": "critical",
+    "title": "LPG Cylinder Nozzle/Pipe Catches Fire",
+    "source": "[{'org': 'Sikkim Fire & Emergency Service (State Government)', 'document_title': 'LPG Fire Safety Guidelines', 'year': '2020', 'page_or_section': 'LPG Safety Section', 'url': 'http://sikkimfire.nic.in/LPG_Fire_Safety.htm', 'org_type': 'national_authority', 'authority_level': 'national', 'last_verified': '2024-01-10'}]",
+    "timestamp": "2024-01-15"
+  },
+  {
+    "id": "fire_018",
+    "crisis_type": "fire",
+    "severity": "medium",
+    "title": "Creating a Home Fire Escape Plan (Pre-Emergency)",
+    "source": "[{'org': 'National Disaster Management Authority (NDMA)', 'document_title': 'Fire Safety Awareness Page', 'year': '2023', 'page_or_section': 'Public Awareness Section', 'url': 'https://ndma.gov.in/Resources/awareness/fire-safety', 'org_type': 'national_authority', 'authority_level': 'national', 'last_verified': '2024-01-10'}]",
+    "timestamp": "2024-01-15"
+  },
+  {
+    "id": "fire_019",
+    "crisis_type": "fire",
+    "severity": "high",
+    "title": "Assisting a Person with Disability to Evacuate",
+    "source": "[{'org': 'Bureau of Indian Standards (BIS)', 'document_title': 'National Building Code of India 2016, Part 4: Fire and Life Safety', 'year': '2016', 'page_or_section': 'Pages 81-87 (Annexes D and E)', 'url': 'https://dgfscdhg.gov.in/national-building-code-india-fire-and-life-safety', 'org_type': 'national_authority', 'authority_level': 'national', 'last_verified': '2024-01-10'}]",
+    "timestamp": "2024-01-15"
+  },
+  {
+    "id": "fire_020",
+    "crisis_type": "fire",
+    "severity": "high",
+    "title": "Vehicle Engine Catches Fire While Driving",
+    "source": "[{'org': 'Directorate General Fire Services, Civil Defence & Home Guards (MHA)', 'document_title': 'Fire Prevention Awareness Materials', 'year': '2023', 'page_or_section': 'Mass Awareness Section', 'url': 'https://dgfscdhg.gov.in/fire-prevention', 'org_type': 'national_authority', 'authority_level': 'national', 'last_verified': '2024-01-10'}]",
+    "timestamp": "2024-01-15"
+  },
+  {
+    "id": "fire_021",
+    "crisis_type": "fire",
+    "severity": "critical",
+    "title": "First Aid for Chemical Burns",
+    "source": "[{'org': 'Indian Red Cross Society / St John Ambulance Association (India)', 'document_title': 'Indian First Aid Manual, 7th Edition', 'year': '2016', 'page_or_section': 'Page 101', 'url': 'https://docslib.org/doc/13036594/first-aid-manual', 'org_type': 'national_authority', 'authority_level': 'national', 'last_verified': '2024-01-10'}]",
+    "timestamp": "2024-01-15"
+  },
+  {
+    "id": "fire_022",
+    "crisis_type": "fire",
+    "severity": "critical",
+    "title": "High-Rise: Fire Below Your Floor",
+    "source": "[{'org': 'Bureau of Indian Standards (BIS)', 'document_title': 'National Building Code of India 2016, Part 4: Fire and Life Safety', 'year': '2016', 'page_or_section': 'Page 81 (Annex D)', 'url': 'https://dgfscdhg.gov.in/national-building-code-india-fire-and-life-safety', 'org_type': 'national_authority', 'authority_level': 'national', 'last_verified': '2024-01-10'}]",
+    "timestamp": "2024-01-15"
+  },
+  {
+    "id": "fire_023",
+    "crisis_type": "fire",
+    "severity": "medium",
+    "title": "Fire Safety During Festivals (Diwali)",
+    "source": "[{'org': 'National Disaster Management Authority (NDMA)', 'document_title': 'NDMA Fire Services Guidelines', 'year': '2012', 'page_or_section': 'Chapter 2 (Fire incidents case studies including Diwali fires)', 'url': 'https://nidm.gov.in/PDF/pubs/NDMA/15.pdf', 'org_type': 'national_authority', 'authority_level': 'national', 'last_verified': '2024-01-10'}]",
+    "timestamp": "2024-01-15"
+  },
+  {
+    "id": "fire_024",
+    "crisis_type": "fire",
+    "severity": "high",
+    "title": "Trapped in an Elevator During a Fire",
+    "source": "[{'org': 'Bureau of Indian Standards (BIS)', 'document_title': 'National Building Code of India 2016, Part 4: Fire and Life Safety', 'year': '2016', 'page_or_section': 'Section 4 (Lifts prohibition during fire)', 'url': 'https://dgfscdhg.gov.in/national-building-code-india-fire-and-life-safety', 'org_type': 'national_authority', 'authority_level': 'national', 'last_verified': '2024-01-10'}]",
+    "timestamp": "2024-01-15"
+  },
+  {
+    "id": "fire_025",
+    "crisis_type": "fire",
+    "severity": "medium",
+    "title": "After a Fire: Safe Re-Entry",
+    "source": "[{'org': 'National Disaster Management Authority (NDMA)', 'document_title': 'Fire Safety Awareness Page', 'year': '2023', 'page_or_section': 'Post-Disaster Safety Section', 'url': 'https://ndma.gov.in/Resources/awareness/fire-safety', 'org_type': 'national_authority', 'authority_level': 'national', 'last_verified': '2024-01-10'}]",
+    "timestamp": "2024-01-15"
+  },
+  {
+    "id": "fire_026",
+    "crisis_type": "fire",
+    "severity": "high",
+    "title": "Fire in a Public Place (Cinema, Mall, Auditorium)",
+    "source": "[{'org': 'Bureau of Indian Standards (BIS)', 'document_title': 'National Building Code of India 2016, Part 4: Fire and Life Safety', 'year': '2016', 'page_or_section': 'Section 3.1.2 (Assembly Buildings)', 'url': 'https://dgfscdhg.gov.in/national-building-code-india-fire-and-life-safety', 'org_type': 'national_authority', 'authority_level': 'national', 'last_verified': '2024-01-10'}]",
+    "timestamp": "2024-01-15"
+  },
+  {
+    "id": "fire_027",
+    "crisis_type": "fire",
+    "severity": "critical",
+    "title": "Moving an Unconscious Person (Only If Safe)",
+    "source": "[{'org': 'Indian Red Cross Society', 'document_title': 'First Aid Training Materials', 'year': '2016', 'page_or_section': 'Casualty Movement Principles', 'url': 'https://www.indianredcross.org/ircs/program/FA', 'org_type': 'national_authority', 'authority_level': 'national', 'last_verified': '2024-01-10'}]",
+    "timestamp": "2024-01-15"
+  },
+  {
+    "id": "fire_028",
+    "crisis_type": "fire",
+    "severity": "high",
+    "title": "Blocked or Locked Fire Exit During Evacuation",
+    "source": "[{'org': 'Bureau of Indian Standards (BIS)', 'document_title': 'National Building Code of India 2016, Part 4: Fire and Life Safety', 'year': '2016', 'page_or_section': 'Section 4.11 (Exits must be unlocked and unobstructed)', 'url': 'https://dgfscdhg.gov.in/national-building-code-india-fire-and-life-safety', 'org_type': 'national_authority', 'authority_level': 'national', 'last_verified': '2024-01-10'}]",
+    "timestamp": "2024-01-15"
+  },
+  {
+    "id": "fire_029",
+    "crisis_type": "fire",
+    "severity": "medium",
+    "title": "First Aid for Heat Exhaustion (During Fire Response)",
+    "source": "[{'org': 'Indian Red Cross Society / St John Ambulance Association (India)', 'document_title': 'Indian First Aid Manual, 7th Edition', 'year': '2016', 'page_or_section': 'Page 106', 'url': 'https://docslib.org/doc/13036594/first-aid-manual', 'org_type': 'national_authority', 'authority_level': 'national', 'last_verified': '2024-01-10'}]",
+    "timestamp": "2024-01-15"
+  },
+  {
+    "id": "fire_030",
+    "crisis_type": "fire",
+    "severity": "high",
+    "title": "Fire While Camping / Wildfire Approaching Campsite",
+    "source": "[{'org': 'National Institute of Disaster Management (NIDM)', 'document_title': 'Forest Fire Disaster Management Manual', 'year': '2013', 'page_or_section': 'Page 101 (General Forest Fire Safety Tips for Family)', 'url': 'https://nidm.gov.in/PDF/pubs/Forest%20Fire%202013.pdf', 'org_type': 'national_authority', 'authority_level': 'national', 'last_verified': '2024-01-10'}]",
+    "timestamp": "2024-01-15"
+  },
+  {
+    "id": "medical_001",
+    "crisis_type": "medical",
+    "severity": "critical",
+    "title": "Cardiac Arrest - Adult (Not Breathing)",
+    "source": "[{'org': 'MoHFW', 'document_title': 'National Emergency Life Support (NELS) Provider Course Manual', 'year': '2022', 'page_or_section': 'Page 45-48', 'org_type': 'national_authority', 'authority_level': 'national', 'last_verified': '2024-01-10'}]",
+    "timestamp": "2024-01-15"
+  },
+  {
+    "id": "medical_002",
+    "crisis_type": "medical",
+    "severity": "high",
+    "title": "Unconscious but Breathing Normally",
+    "source": "[{'org': 'Indian Red Cross Society', 'document_title': 'Indian First Aid Manual, 7th Edition', 'year': '2016', 'page_or_section': 'Page 78-80', 'org_type': 'national_authority', 'authority_level': 'national', 'last_verified': '2024-01-10'}]",
+    "timestamp": "2024-01-15"
+  },
+  {
+    "id": "medical_003",
+    "crisis_type": "medical",
+    "severity": "critical",
+    "title": "Severe External Bleeding",
+    "source": "[{'org': 'WHO', 'document_title': 'Community First Aid Response (CFAR) Pocket Guide', 'year': '2020', 'page_or_section': 'Page 12', 'org_type': 'national_authority', 'authority_level': 'national', 'last_verified': '2024-01-10'}]",
+    "timestamp": "2024-01-15"
+  },
+  {
+    "id": "medical_004",
+    "crisis_type": "medical",
+    "severity": "high",
+    "title": "Conscious Adult Choking",
+    "source": "[{'org': 'Indian Red Cross Society', 'document_title': 'Indian First Aid Manual, 7th Edition', 'year': '2016', 'page_or_section': 'Page 110', 'org_type': 'national_authority', 'authority_level': 'national', 'last_verified': '2024-01-10'}]",
+    "timestamp": "2024-01-15"
+  },
+  {
+    "id": "medical_005",
+    "crisis_type": "medical",
+    "severity": "critical",
+    "title": "Unconscious and Choking",
+    "source": "[{'org': 'MoHFW', 'document_title': 'National Emergency Life Support (NELS) Provider Course Manual', 'year': '2022', 'page_or_section': 'Page 53-54', 'org_type': 'national_authority', 'authority_level': 'national', 'last_verified': '2024-01-10'}]",
+    "timestamp": "2024-01-15"
+  },
+  {
+    "id": "medical_006",
+    "crisis_type": "medical",
+    "severity": "high",
+    "title": "Suspected Stroke (FAST)",
+    "source": "[{'org': 'MoHFW / NHM', 'document_title': 'Stroke Awareness Guidelines', 'year': '2021', 'page_or_section': 'Page 8-9', 'org_type': 'national_authority', 'authority_level': 'national', 'last_verified': '2024-01-10'}]",
+    "timestamp": "2024-01-15"
+  },
+  {
+    "id": "medical_007",
+    "crisis_type": "medical",
+    "severity": "critical",
+    "title": "Suspected Heart Attack",
+    "source": "[{'org': 'Indian Resuscitation Council', 'document_title': 'Compression Only Life Support Guidelines', 'year': '2020', 'page_or_section': 'Page 62', 'org_type': 'national_authority', 'authority_level': 'national', 'last_verified': '2024-01-10'}]",
+    "timestamp": "2024-01-15"
+  },
+  {
+    "id": "medical_008",
+    "crisis_type": "medical",
+    "severity": "high",
+    "title": "Person Having a Seizure",
+    "source": "[{'org': 'Indian Red Cross Society', 'document_title': 'Indian First Aid Manual, 7th Edition', 'year': '2016', 'page_or_section': 'Page 118', 'org_type': 'national_authority', 'authority_level': 'national', 'last_verified': '2024-01-10'}]",
+    "timestamp": "2024-01-15"
+  },
+  {
+    "id": "medical_009",
+    "crisis_type": "medical",
+    "severity": "high",
+    "title": "Fainting / Sudden Collapse",
+    "source": "[{'org': 'Indian Red Cross Society', 'document_title': 'Indian First Aid Manual, 7th Edition', 'year': '2016', 'page_or_section': 'Page 82-83', 'org_type': 'national_authority', 'authority_level': 'national', 'last_verified': '2024-01-10'}]",
+    "timestamp": "2024-01-15"
+  },
+  {
+    "id": "medical_010",
+    "crisis_type": "medical",
+    "severity": "critical",
+    "title": "Signs of Shock",
+    "source": "[{'org': 'WHO', 'document_title': 'Basic Emergency Care (BEC)', 'year': '2018', 'page_or_section': 'Page 28', 'org_type': 'national_authority', 'authority_level': 'national', 'last_verified': '2024-01-10'}]",
+    "timestamp": "2024-01-15"
+  },
+  {
+    "id": "medical_011",
+    "crisis_type": "medical",
+    "severity": "high",
+    "title": "Severe Asthma Attack",
+    "source": "[{'org': 'Indian Red Cross Society', 'document_title': 'Indian First Aid Manual, 7th Edition', 'year': '2016', 'page_or_section': 'Page 114', 'org_type': 'national_authority', 'authority_level': 'national', 'last_verified': '2024-01-10'}]",
+    "timestamp": "2024-01-15"
+  },
+  {
+    "id": "medical_012",
+    "crisis_type": "medical",
+    "severity": "critical",
+    "title": "Severe Allergic Reaction (Anaphylaxis)",
+    "source": "[{'org': 'Indian Red Cross Society', 'document_title': 'Indian First Aid Manual, 7th Edition', 'year': '2016', 'page_or_section': 'Page 116', 'org_type': 'national_authority', 'authority_level': 'national', 'last_verified': '2024-01-10'}]",
+    "timestamp": "2024-01-15"
+  },
+  {
+    "id": "medical_013",
+    "crisis_type": "medical",
+    "severity": "high",
+    "title": "Low Blood Sugar (Hypoglycemia - Conscious)",
+    "source": "[{'org': 'Indian Red Cross Society', 'document_title': 'Indian First Aid Manual, 7th Edition', 'year': '2016', 'page_or_section': 'Page 120', 'org_type': 'national_authority', 'authority_level': 'national', 'last_verified': '2024-01-10'}]",
+    "timestamp": "2024-01-15"
+  },
+  {
+    "id": "medical_014",
+    "crisis_type": "medical",
+    "severity": "critical",
+    "title": "Unconscious Diabetic Person",
+    "source": "[{'org': 'Indian Red Cross Society', 'document_title': 'Indian First Aid Manual, 7th Edition', 'year': '2016', 'page_or_section': 'Page 121', 'org_type': 'national_authority', 'authority_level': 'national', 'last_verified': '2024-01-10'}]",
+    "timestamp": "2024-01-15"
+  },
+  {
+    "id": "medical_015",
+    "crisis_type": "medical",
+    "severity": "medium",
+    "title": "Nosebleed",
+    "source": "[{'org': 'Indian Red Cross Society', 'document_title': 'Indian First Aid Manual, 7th Edition', 'year': '2016', 'page_or_section': 'Page 104', 'org_type': 'national_authority', 'authority_level': 'national', 'last_verified': '2024-01-10'}]",
+    "timestamp": "2024-01-15"
+  },
+  {
+    "id": "medical_016",
+    "crisis_type": "medical",
+    "severity": "high",
+    "title": "Chemical Splash in Eye",
+    "source": "[{'org': 'WHO', 'document_title': 'Community First Aid Response (CFAR) Pocket Guide', 'year': '2020', 'page_or_section': 'Page 18', 'org_type': 'national_authority', 'authority_level': 'national', 'last_verified': '2024-01-10'}]",
+    "timestamp": "2024-01-15"
+  },
+  {
+    "id": "medical_017",
+    "crisis_type": "medical",
+    "severity": "high",
+    "title": "Head Injury with Bleeding",
+    "source": "[{'org': 'WHO', 'document_title': 'Basic Emergency Care (BEC)', 'year': '2018', 'page_or_section': 'Page 52', 'org_type': 'national_authority', 'authority_level': 'national', 'last_verified': '2024-01-10'}]",
+    "timestamp": "2024-01-15"
+  },
+  {
+    "id": "medical_018",
+    "crisis_type": "medical",
+    "severity": "critical",
+    "title": "Suspected Spinal or Neck Injury",
+    "source": "[{'org': 'MoHFW', 'document_title': 'National Emergency Life Support (NELS) Provider Course Manual', 'year': '2022', 'page_or_section': 'Page 82-84', 'org_type': 'national_authority', 'authority_level': 'national', 'last_verified': '2024-01-10'}]",
+    "timestamp": "2024-01-15"
+  },
+  {
+    "id": "medical_019",
+    "crisis_type": "medical",
+    "severity": "high",
+    "title": "Broken Bone or Fracture",
+    "source": "[{'org': 'Indian Red Cross Society', 'document_title': 'Indian First Aid Manual, 7th Edition', 'year': '2016', 'page_or_section': 'Page 125-127', 'org_type': 'national_authority', 'authority_level': 'national', 'last_verified': '2024-01-10'}]",
+    "timestamp": "2024-01-15"
+  },
+  {
+    "id": "medical_020",
+    "crisis_type": "medical",
+    "severity": "high",
+    "title": "Dislocated Joint",
+    "source": "[{'org': 'Indian Red Cross Society', 'document_title': 'Indian First Aid Manual, 7th Edition', 'year': '2016', 'page_or_section': 'Page 130', 'org_type': 'national_authority', 'authority_level': 'national', 'last_verified': '2024-01-10'}]",
+    "timestamp": "2024-01-15"
+  },
+  {
+    "id": "medical_021",
+    "crisis_type": "medical",
+    "severity": "critical",
+    "title": "Near Drowning / Rescued from Water",
+    "source": "[{'org': 'MoHFW', 'document_title': 'National Emergency Life Support (NELS) Provider Course Manual', 'year': '2022', 'page_or_section': 'Page 49', 'org_type': 'national_authority', 'authority_level': 'national', 'last_verified': '2024-01-10'}]",
+    "timestamp": "2024-01-15"
+  },
+  {
+    "id": "medical_022",
+    "crisis_type": "medical",
+    "severity": "critical",
+    "title": "Poisoning (Swallowed Poison)",
+    "source": "[{'org': 'Indian Red Cross Society', 'document_title': 'Indian First Aid Manual, 7th Edition', 'year': '2016', 'page_or_section': 'Page 122', 'org_type': 'national_authority', 'authority_level': 'national', 'last_verified': '2024-01-10'}]",
+    "timestamp": "2024-01-15"
+  },
+  {
+    "id": "medical_023",
+    "crisis_type": "medical",
+    "severity": "critical",
+    "title": "Heat Stroke",
+    "source": "[{'org': 'Indian Red Cross Society', 'document_title': 'Indian First Aid Manual, 7th Edition', 'year': '2016', 'page_or_section': 'Page 107', 'org_type': 'national_authority', 'authority_level': 'national', 'last_verified': '2024-01-10'}]",
+    "timestamp": "2024-01-15"
+  },
+  {
+    "id": "medical_024",
+    "crisis_type": "medical",
+    "severity": "high",
+    "title": "Hypothermia",
+    "source": "[{'org': 'Indian Red Cross Society', 'document_title': 'Indian First Aid Manual, 7th Edition', 'year': '2016', 'page_or_section': 'Page 109', 'org_type': 'national_authority', 'authority_level': 'national', 'last_verified': '2024-01-10'}]",
+    "timestamp": "2024-01-15"
+  },
+  {
+    "id": "medical_025",
+    "crisis_type": "medical",
+    "severity": "critical",
+    "title": "Amputation / Severed Limb or Digit",
+    "source": "[{'org': 'AIIMS', 'document_title': 'JPN Apex Trauma Centre Guidelines', 'year': '2021', 'page_or_section': 'Module 6', 'org_type': 'national_authority', 'authority_level': 'national', 'last_verified': '2024-01-10'}]",
+    "timestamp": "2024-01-15"
+  },
+  {
+    "id": "medical_026",
+    "crisis_type": "medical",
+    "severity": "high",
+    "title": "Scald Burn from Hot Liquid",
+    "source": "[{'org': 'Indian Red Cross Society', 'document_title': 'Indian First Aid Manual, 7th Edition', 'year': '2016', 'page_or_section': 'Page 98-99', 'org_type': 'national_authority', 'authority_level': 'national', 'last_verified': '2024-01-10'}]",
+    "timestamp": "2024-01-15"
+  },
+  {
+    "id": "medical_027",
+    "crisis_type": "medical",
+    "severity": "critical",
+    "title": "Electrocution",
+    "source": "[{'org': 'Indian Red Cross Society', 'document_title': 'Indian First Aid Manual, 7th Edition', 'year': '2016', 'page_or_section': 'Page 102', 'org_type': 'national_authority', 'authority_level': 'national', 'last_verified': '2024-01-10'}]",
+    "timestamp": "2024-01-15"
+  },
+  {
+    "id": "medical_028",
+    "crisis_type": "medical",
+    "severity": "high",
+    "title": "Snake Bite",
+    "source": "[{'org': 'MoHFW', 'document_title': 'National Snakebite Management Protocol', 'year': '2017', 'page_or_section': 'Page 12-15', 'org_type': 'national_authority', 'authority_level': 'national', 'last_verified': '2024-01-10'}]",
+    "timestamp": "2024-01-15"
+  },
+  {
+    "id": "medical_029",
+    "crisis_type": "medical",
+    "severity": "high",
+    "title": "Breathing Difficulty in Child",
+    "source": "[{'org': 'Indian Red Cross Society', 'document_title': 'Indian First Aid Manual, 7th Edition', 'year': '2016', 'page_or_section': 'Page 115', 'org_type': 'national_authority', 'authority_level': 'national', 'last_verified': '2024-01-10'}]",
+    "timestamp": "2024-01-15"
+  },
+  {
+    "id": "medical_030",
+    "crisis_type": "medical",
+    "severity": "medium",
+    "title": "Basic Triage - Multiple Casualties",
+    "source": "[{'org': 'NDMA', 'document_title': 'Medical Preparedness and Mass Casualty Management Guidelines', 'year': '2015', 'page_or_section': 'Section 4.3', 'org_type': 'national_authority', 'authority_level': 'national', 'last_verified': '2024-01-10'}]",
+    "timestamp": "2024-01-15"
+  },
+  {
+    "id": "accident_001",
+    "crisis_type": "accident",
+    "severity": "high",
+    "title": "Arriving at a Road Accident Scene \u2013 Making the Area Safe",
+    "source": "[{'org': 'Indian Red Cross Society', 'document_title': 'Indian First Aid Manual, 7th Edition', 'year': '2016', 'page_or_section': 'Page 19 (A.3.1\u2013A.3.2)', 'org_type': 'national_authority', 'authority_level': 'national', 'last_verified': '2024-01-10'}]",
+    "timestamp": "2024-01-15"
+  },
+  {
+    "id": "accident_002",
+    "crisis_type": "accident",
+    "severity": "high",
+    "title": "When It Is Necessary to Move an Injured Person",
+    "source": "[{'org': 'Indian Red Cross Society', 'document_title': 'Indian First Aid Manual, 7th Edition', 'year': '2016', 'page_or_section': 'Page 19 (A.3.1)', 'org_type': 'national_authority', 'authority_level': 'national', 'last_verified': '2024-01-10'}]",
+    "timestamp": "2024-01-15"
+  },
+  {
+    "id": "accident_003",
+    "crisis_type": "accident",
+    "severity": "high",
+    "title": "First Check of Injured Person (Consciousness and Breathing)",
+    "source": "[{'org': 'Indian Red Cross Society', 'document_title': 'Indian First Aid Manual, 7th Edition', 'year': '2016', 'page_or_section': 'Page 19\u201320 (A.3.2\u2013A.3.3)', 'org_type': 'national_authority', 'authority_level': 'national', 'last_verified': '2024-01-10'}]",
+    "timestamp": "2024-01-15"
+  },
+  {
+    "id": "accident_004",
+    "crisis_type": "accident",
+    "severity": "critical",
+    "title": "Major External Bleeding After Road Accident",
+    "source": "[{'org': 'WHO', 'document_title': 'Community First Aid Response (CFAR) Pocket Guide', 'year': '2020', 'page_or_section': 'Page 4\u20135', 'org_type': 'national_authority', 'authority_level': 'national', 'last_verified': '2024-01-10'}]",
+    "timestamp": "2024-01-15"
+  },
+  {
+    "id": "accident_005",
+    "crisis_type": "accident",
+    "severity": "critical",
+    "title": "Road Accident Victim in Shock",
+    "source": "[{'org': 'MoHFW (DGHS)', 'document_title': 'Standard Treatment Guidelines for Management of Trauma', 'year': '2021', 'page_or_section': 'Page 37 (Shock management)', 'org_type': 'national_authority', 'authority_level': 'national', 'last_verified': '2024-01-10'}]",
+    "timestamp": "2024-01-15"
+  },
+  {
+    "id": "accident_006",
+    "crisis_type": "accident",
+    "severity": "critical",
+    "title": "Accident Victim Unresponsive and Not Breathing (CPR)",
+    "source": "[{'org': 'Indian Resuscitation Council (IRC/ISA)', 'document_title': 'Compression Only Life Support (COLS) Guidelines', 'year': '2017', 'page_or_section': 'COLS Guideline (Indian J Anaesth)', 'org_type': 'national_authority', 'authority_level': 'national', 'last_verified': '2024-01-10'}, {'org': 'MoHFW', 'document_title': 'National Emergency Life Support (NELS) Provider Course Manual', 'year': '2022', 'page_or_section': 'Page 68 (Trauma priorities)', 'org_type': 'national_authority', 'authority_level': 'national', 'last_verified': '2024-01-10'}]",
+    "timestamp": "2024-01-15"
+  },
+  {
+    "id": "accident_007",
+    "crisis_type": "accident",
+    "severity": "critical",
+    "title": "Multiple People Injured in a Road Crash (Basic Triage)",
+    "source": "[{'org': 'MoHFW', 'document_title': 'National Emergency Life Support (NELS) Provider Course Manual', 'year': '2022', 'page_or_section': 'Page 68 and Page 16 (triage system)', 'org_type': 'national_authority', 'authority_level': 'national', 'last_verified': '2024-01-10'}]",
+    "timestamp": "2024-01-15"
+  },
+  {
+    "id": "accident_008",
+    "crisis_type": "accident",
+    "severity": "critical",
+    "title": "Motorcycle Crash \u2013 Rider Unconscious with Helmet On",
+    "source": "[{'org': 'MoHFW', 'document_title': 'National Emergency Life Support (NELS) Provider Course Manual', 'year': '2022', 'page_or_section': 'Page 75 (Section F: Helmet Removal)', 'org_type': 'national_authority', 'authority_level': 'national', 'last_verified': '2024-01-10'}]",
+    "timestamp": "2024-01-15"
+  },
+  {
+    "id": "accident_009",
+    "crisis_type": "accident",
+    "severity": "critical",
+    "title": "Suspected Spinal Injury After Crash",
+    "source": "[{'org': 'MoHFW (DGHS)', 'document_title': 'Standard Treatment Guidelines for Management of Trauma', 'year': '2021', 'page_or_section': 'Page 60 (Spinal Motion Restriction)', 'org_type': 'national_authority', 'authority_level': 'national', 'last_verified': '2024-01-10'}]",
+    "timestamp": "2024-01-15"
+  },
+  {
+    "id": "accident_010",
+    "crisis_type": "accident",
+    "severity": "critical",
+    "title": "Open Fracture in Road Accident (Bone Visible)",
+    "source": "[{'org': 'WHO', 'document_title': 'Community First Aid Response (CFAR) Pocket Guide', 'year': '2020', 'page_or_section': 'Page 4\u20136', 'org_type': 'national_authority', 'authority_level': 'national', 'last_verified': '2024-01-10'}, {'org': 'MoHFW', 'document_title': 'National Emergency Life Support (NELS) Provider Course Manual', 'year': '2022', 'page_or_section': 'Page 78\u201379 (Splinting steps)', 'org_type': 'national_authority', 'authority_level': 'national', 'last_verified': '2024-01-10'}]",
+    "timestamp": "2024-01-15"
+  },
+  {
+    "id": "accident_011",
+    "crisis_type": "accident",
+    "severity": "critical",
+    "title": "Amputation in Road Accident (Severed Limb or Finger)",
+    "source": "[{'org': 'MoHFW', 'document_title': 'National Emergency Life Support (NELS) Provider Course Manual', 'year': '2022', 'page_or_section': 'Page 16 (Table of contents: Care of amputated body part)', 'org_type': 'national_authority', 'authority_level': 'national', 'last_verified': '2024-01-10'}, {'org': 'AIIMS', 'document_title': 'JPN Apex Trauma Centre Protocols', 'year': '2021', 'page_or_section': 'Amputation first aid module', 'org_type': 'national_authority', 'authority_level': 'national', 'last_verified': '2024-01-10'}]",
+    "timestamp": "2024-01-15"
+  },
+  {
+    "id": "accident_012",
+    "crisis_type": "accident",
+    "severity": "critical",
+    "title": "Victim Trapped Inside Vehicle (No Fire)",
+    "source": "[{'org': 'MoHFW', 'document_title': 'National Emergency Life Support (NELS) Provider Course Manual', 'year': '2022', 'page_or_section': 'Page 68 (Extrication of victim)', 'org_type': 'national_authority', 'authority_level': 'national', 'last_verified': '2024-01-10'}]",
+    "timestamp": "2024-01-15"
+  },
+  {
+    "id": "accident_013",
+    "crisis_type": "accident",
+    "severity": "critical",
+    "title": "Road Accident Involving Fuel Leak or Fire Risk",
+    "source": "[{'org': 'MoHFW', 'document_title': 'National Emergency Life Support (NELS) Provider Course Manual', 'year': '2022', 'page_or_section': 'Page 68\u201369 (Scene assessment & Safety)', 'org_type': 'national_authority', 'authority_level': 'national', 'last_verified': '2024-01-10'}, {'org': 'WHO', 'document_title': 'Community First Aid Response (CFAR) Pocket Guide', 'year': '2020', 'page_or_section': 'Page 5\u20136 (SAFETY: STOP, Protect from HAZARDS, Get HELP)', 'org_type': 'national_authority', 'authority_level': 'national', 'last_verified': '2024-01-10'}]",
+    "timestamp": "2024-01-15"
+  },
+  {
+    "id": "accident_014",
+    "crisis_type": "accident",
+    "severity": "high",
+    "title": "Child Injured in Road Accident",
+    "source": "[{'org': 'WHO / ICRC', 'document_title': 'Basic Emergency Care (BEC)', 'year': '2018', 'page_or_section': 'Trauma module (ABCDE approach for children)', 'org_type': 'national_authority', 'authority_level': 'national', 'last_verified': '2024-01-10'}]",
+    "timestamp": "2024-01-15"
+  },
+  {
+    "id": "accident_015",
+    "crisis_type": "accident",
+    "severity": "low",
+    "title": "Good Samaritan Rights When Helping Accident Victims",
+    "source": "[{'org': 'Ministry of Road Transport & Highways (MoRTH)', 'document_title': 'Good Samaritan Notification \u2014 Rights and Duties', 'year': '2016', 'page_or_section': 'Page 1\u20132', 'org_type': 'national_authority', 'authority_level': 'national', 'last_verified': '2024-01-10'}]",
+    "timestamp": "2024-01-15"
+  },
+  {
+    "id": "accident_016",
+    "crisis_type": "accident",
+    "severity": "critical",
+    "title": "Pedestrian Hit by Vehicle at High Speed",
+    "source": "[{'org': 'MoHFW', 'document_title': 'National Emergency Life Support (NELS) Provider Course Manual', 'year': '2022', 'page_or_section': 'Page 68\u201369 (Scene assessment, primary survey)', 'org_type': 'national_authority', 'authority_level': 'national', 'last_verified': '2024-01-10'}]",
+    "timestamp": "2024-01-15"
+  },
+  {
+    "id": "accident_017",
+    "crisis_type": "accident",
+    "severity": "critical",
+    "title": "Chest Injury After Crash (Difficulty Breathing)",
+    "source": "[{'org': 'MoHFW (DGHS)', 'document_title': 'Standard Treatment Guidelines for Management of Trauma', 'year': '2021', 'page_or_section': 'Page 25\u201328 (Chest Trauma)', 'org_type': 'national_authority', 'authority_level': 'national', 'last_verified': '2024-01-10'}]",
+    "timestamp": "2024-01-15"
+  },
+  {
+    "id": "accident_018",
+    "crisis_type": "accident",
+    "severity": "critical",
+    "title": "Abdominal Injury After Crash",
+    "source": "[{'org': 'MoHFW (DGHS)', 'document_title': 'Standard Treatment Guidelines for Management of Trauma', 'year': '2021', 'page_or_section': 'Page 42\u201344 (Abdominal Trauma)', 'org_type': 'national_authority', 'authority_level': 'national', 'last_verified': '2024-01-10'}]",
+    "timestamp": "2024-01-15"
+  },
+  {
+    "id": "accident_019",
+    "crisis_type": "accident",
+    "severity": "critical",
+    "title": "Object Embedded in Body After Crash (Glass, Metal)",
+    "source": "[{'org': 'WHO', 'document_title': 'Community First Aid Response (CFAR) Pocket Guide', 'year': '2020', 'page_or_section': 'Page 4\u20136 (Wounds with objects)', 'org_type': 'national_authority', 'authority_level': 'national', 'last_verified': '2024-01-10'}]",
+    "timestamp": "2024-01-15"
+  },
+  {
+    "id": "accident_020",
+    "crisis_type": "accident",
+    "severity": "high",
+    "title": "Head Injury After Road Accident (Conscious but Bleeding)",
+    "source": "[{'org': 'WHO / ICRC', 'document_title': 'Basic Emergency Care (BEC)', 'year': '2018', 'page_or_section': 'Page 52 (Head Trauma)', 'org_type': 'national_authority', 'authority_level': 'national', 'last_verified': '2024-01-10'}]",
+    "timestamp": "2024-01-15"
+  },
+  {
+    "id": "accident_021",
+    "crisis_type": "accident",
+    "severity": "high",
+    "title": "Two-Wheeler Accident \u2013 Road Rash / Abrasions",
+    "source": "[{'org': 'Indian Red Cross Society', 'document_title': 'Indian First Aid Manual, 7th Edition', 'year': '2016', 'page_or_section': 'Page 92\u201394 (Wound care)', 'org_type': 'national_authority', 'authority_level': 'national', 'last_verified': '2024-01-10'}]",
+    "timestamp": "2024-01-15"
+  },
+  {
+    "id": "accident_022",
+    "crisis_type": "accident",
+    "severity": "high",
+    "title": "Eye Injury from Windshield Glass",
+    "source": "[{'org': 'Indian Red Cross Society', 'document_title': 'Indian First Aid Manual, 7th Edition', 'year': '2016', 'page_or_section': 'Page 107 (Eye injuries)', 'org_type': 'national_authority', 'authority_level': 'national', 'last_verified': '2024-01-10'}]",
+    "timestamp": "2024-01-15"
+  },
+  {
+    "id": "accident_023",
+    "crisis_type": "accident",
+    "severity": "critical",
+    "title": "Vehicle Falls into Water / Canal",
+    "source": "[{'org': 'MoHFW', 'document_title': 'National Emergency Life Support (NELS) Provider Course Manual', 'year': '2022', 'page_or_section': 'Page 49 (Drowning/submersion)', 'org_type': 'national_authority', 'authority_level': 'national', 'last_verified': '2024-01-10'}]",
+    "timestamp": "2024-01-15"
+  },
+  {
+    "id": "accident_024",
+    "crisis_type": "accident",
+    "severity": "high",
+    "title": "Accident on Highway \u2013 Calling for Help Effectively",
+    "source": "[{'org': 'India ERSS', 'document_title': 'Emergency Response Support System Portal', 'year': '2023', 'page_or_section': 'How to use 112 (Official portal)', 'org_type': 'national_authority', 'authority_level': 'national', 'last_verified': '2024-01-10'}, {'org': 'Ministry of Road Transport & Highways', 'document_title': 'Road Safety Guidelines', 'year': '2020', 'page_or_section': 'Highway safety section', 'org_type': 'national_authority', 'authority_level': 'national', 'last_verified': '2024-01-10'}]",
+    "timestamp": "2024-01-15"
+  },
+  {
+    "id": "accident_025",
+    "crisis_type": "accident",
+    "severity": "high",
+    "title": "Hit and Run \u2013 What to Do as a Witness",
+    "source": "[{'org': 'Ministry of Road Transport & Highways (MoRTH)', 'document_title': 'Good Samaritan Notification \u2014 Rights and Duties', 'year': '2016', 'page_or_section': 'Page 1\u20132', 'org_type': 'national_authority', 'authority_level': 'national', 'last_verified': '2024-01-10'}]",
+    "timestamp": "2024-01-15"
+  },
+  {
+    "id": "accident_026",
+    "crisis_type": "accident",
+    "severity": "critical",
+    "title": "Pregnant Woman Injured in Road Accident",
+    "source": "[{'org': 'MoHFW (DGHS)', 'document_title': 'Standard Treatment Guidelines for Management of Trauma', 'year': '2021', 'page_or_section': 'Page 55 (Trauma in pregnancy)', 'org_type': 'national_authority', 'authority_level': 'national', 'last_verified': '2024-01-10'}]",
+    "timestamp": "2024-01-15"
+  },
+  {
+    "id": "accident_027",
+    "crisis_type": "accident",
+    "severity": "high",
+    "title": "Elderly Person Injured in Road Accident",
+    "source": "[{'org': 'WHO / ICRC', 'document_title': 'Basic Emergency Care (BEC)', 'year': '2018', 'page_or_section': 'Trauma module (special populations)', 'org_type': 'national_authority', 'authority_level': 'national', 'last_verified': '2024-01-10'}]",
+    "timestamp": "2024-01-15"
+  },
+  {
+    "id": "accident_028",
+    "crisis_type": "accident",
+    "severity": "critical",
+    "title": "Seizure After Head Injury in Road Accident",
+    "source": "[{'org': 'Indian Red Cross Society', 'document_title': 'Indian First Aid Manual, 7th Edition', 'year': '2016', 'page_or_section': 'Page 118 (Seizures)', 'org_type': 'national_authority', 'authority_level': 'national', 'last_verified': '2024-01-10'}, {'org': 'MoHFW (DGHS)', 'document_title': 'Standard Treatment Guidelines for Management of Trauma', 'year': '2021', 'page_or_section': 'Page 20 (Head Trauma complications)', 'org_type': 'national_authority', 'authority_level': 'national', 'last_verified': '2024-01-10'}]",
+    "timestamp": "2024-01-15"
+  },
+  {
+    "id": "accident_029",
+    "crisis_type": "accident",
+    "severity": "high",
+    "title": "Crush Injury \u2013 Heavy Vehicle / Object on Limb",
+    "source": "[{'org': 'MoHFW (DGHS)', 'document_title': 'Standard Treatment Guidelines for Management of Trauma', 'year': '2021', 'page_or_section': 'Page 48 (Crush injuries)', 'org_type': 'national_authority', 'authority_level': 'national', 'last_verified': '2024-01-10'}]",
+    "timestamp": "2024-01-15"
+  },
+  {
+    "id": "accident_030",
+    "crisis_type": "accident",
+    "severity": "high",
+    "title": "Transporting an Injured Person to Hospital (When Ambulance Is Not Available)",
+    "source": "[{'org': 'MoHFW', 'document_title': 'National Emergency Life Support (NELS) Provider Course Manual', 'year': '2022', 'page_or_section': 'Page 68 (Transport initiation and priorities)', 'org_type': 'national_authority', 'authority_level': 'national', 'last_verified': '2024-01-10'}, {'org': 'Ministry of Road Transport & Highways (MoRTH)', 'document_title': 'Good Samaritan Notification', 'year': '2016', 'page_or_section': 'Page 1-2 (Legal protection)', 'org_type': 'national_authority', 'authority_level': 'national', 'last_verified': '2024-01-10'}]",
+    "timestamp": "2024-01-15"
+  },
+  {
+    "id": "snake_bite_001",
+    "crisis_type": "snake_bite",
+    "severity": "high",
+    "title": "Suspected snake bite in rural area",
+    "source": "[{'org': 'MoHFW (DGHS)', 'document_title': 'Standard Treatment Guidelines: Snakebite', 'year': '2016', 'page_or_section': 'Page 8-10', 'org_type': 'national_authority', 'authority_level': 'national', 'last_verified': '2024-01-10'}]",
+    "timestamp": "2024-01-15"
+  },
+  {
+    "id": "snake_bite_002",
+    "crisis_type": "snake_bite",
+    "severity": "medium",
+    "title": "Identifying venomous vs non-venomous snake",
+    "source": "[{'org': 'ICMR-NIRRCH', 'document_title': 'Educational materials on snakebite', 'year': '2024', 'page_or_section': 'Identification chart page', 'org_type': 'national_authority', 'authority_level': 'national', 'last_verified': '2024-01-10'}]",
+    "timestamp": "2024-01-15"
+  },
+  {
+    "id": "snake_bite_003",
+    "crisis_type": "snake_bite",
+    "severity": "high",
+    "title": "First aid immediately after snake bite",
+    "source": "[{'org': 'MoHFW (DGHS)', 'document_title': 'Standard Treatment Guidelines: Snakebite', 'year': '2016', 'page_or_section': 'Page 10-12', 'org_type': 'national_authority', 'authority_level': 'national', 'last_verified': '2024-01-10'}]",
+    "timestamp": "2024-01-15"
+  },
+  {
+    "id": "snake_bite_004",
+    "crisis_type": "snake_bite",
+    "severity": "critical",
+    "title": "Common harmful actions to avoid",
+    "source": "[{'org': 'NCDC (DGHS, MoHFW)', 'document_title': 'Protocol for Initial Management of Snakebite', 'year': '2024', 'page_or_section': 'Page 4', 'org_type': 'national_authority', 'authority_level': 'national', 'last_verified': '2024-01-10'}]",
+    "timestamp": "2024-01-15"
+  },
+  {
+    "id": "snake_bite_005",
+    "crisis_type": "snake_bite",
+    "severity": "critical",
+    "title": "Neurotoxic snake bite symptoms",
+    "source": "[{'org': 'MoHFW (DGHS)', 'document_title': 'Standard Treatment Guidelines: Snakebite', 'year': '2016', 'page_or_section': 'Page 14-15', 'org_type': 'national_authority', 'authority_level': 'national', 'last_verified': '2024-01-10'}]",
+    "timestamp": "2024-01-15"
+  },
+  {
+    "id": "snake_bite_006",
+    "crisis_type": "snake_bite",
+    "severity": "critical",
+    "title": "Hemotoxic snake bite symptoms",
+    "source": "[{'org': 'MoHFW (DGHS)', 'document_title': 'Standard Treatment Guidelines: Snakebite', 'year': '2016', 'page_or_section': 'Page 15-16', 'org_type': 'national_authority', 'authority_level': 'national', 'last_verified': '2024-01-10'}]",
+    "timestamp": "2024-01-15"
+  },
+  {
+    "id": "snake_bite_007",
+    "crisis_type": "snake_bite",
+    "severity": "critical",
+    "title": "Snake bite in a child",
+    "source": "[{'org': 'National Health Mission (NHM)', 'document_title': 'Training Manual / Emergency Module for CHO', 'year': '2023', 'page_or_section': 'Pediatric considerations', 'org_type': 'national_authority', 'authority_level': 'national', 'last_verified': '2024-01-10'}]",
+    "timestamp": "2024-01-15"
+  },
+  {
+    "id": "snake_bite_008",
+    "crisis_type": "snake_bite",
+    "severity": "high",
+    "title": "Snake bite while sleeping",
+    "source": "[{'org': 'WHO', 'document_title': 'Community First Aid Response (CFAR) Pocket Guide', 'year': '2020', 'page_or_section': 'Snake bite module', 'org_type': 'national_authority', 'authority_level': 'national', 'last_verified': '2024-01-10'}]",
+    "timestamp": "2024-01-15"
+  },
+  {
+    "id": "snake_bite_009",
+    "crisis_type": "snake_bite",
+    "severity": "high",
+    "title": "Pressure immobilization technique",
+    "source": "[{'org': 'MoHFW (DGHS)', 'document_title': 'Standard Treatment Guidelines: Snakebite', 'year': '2016', 'page_or_section': 'Page 10-11', 'org_type': 'national_authority', 'authority_level': 'national', 'last_verified': '2024-01-10'}]",
+    "timestamp": "2024-01-15"
+  },
+  {
+    "id": "snake_bite_010",
+    "crisis_type": "snake_bite",
+    "severity": "high",
+    "title": "Transporting a snake bite victim",
+    "source": "[{'org': 'NCDC (DGHS, MoHFW)', 'document_title': 'Protocol for Initial Management of Snakebite', 'year': '2024', 'page_or_section': 'Page 6-7', 'org_type': 'national_authority', 'authority_level': 'national', 'last_verified': '2024-01-10'}]",
+    "timestamp": "2024-01-15"
+  },
+  {
+    "id": "snake_bite_011",
+    "crisis_type": "snake_bite",
+    "severity": "critical",
+    "title": "Snake bite in pregnancy",
+    "source": "[{'org': 'MoHFW (DGHS)', 'document_title': 'Standard Treatment Guidelines: Snakebite', 'year': '2016', 'page_or_section': 'Page 18', 'org_type': 'national_authority', 'authority_level': 'national', 'last_verified': '2024-01-10'}]",
+    "timestamp": "2024-01-15"
+  },
+  {
+    "id": "snake_bite_012",
+    "crisis_type": "snake_bite",
+    "severity": "high",
+    "title": "Snake bite in an elderly person",
+    "source": "[{'org': 'WHO', 'document_title': 'Basic Emergency Care (BEC)', 'year': '2018', 'page_or_section': 'Special populations', 'org_type': 'national_authority', 'authority_level': 'national', 'last_verified': '2024-01-10'}]",
+    "timestamp": "2024-01-15"
+  },
+  {
+    "id": "snake_bite_013",
+    "crisis_type": "snake_bite",
+    "severity": "critical",
+    "title": "Snake bite on hand or face",
+    "source": "[{'org': 'MoHFW (DGHS)', 'document_title': 'Standard Treatment Guidelines: Snakebite', 'year': '2016', 'page_or_section': 'Page 12', 'org_type': 'national_authority', 'authority_level': 'national', 'last_verified': '2024-01-10'}]",
+    "timestamp": "2024-01-15"
+  },
+  {
+    "id": "snake_bite_014",
+    "crisis_type": "snake_bite",
+    "severity": "critical",
+    "title": "Multiple snake bite victims",
+    "source": "[{'org': 'ICMR-NIRRCH', 'document_title': 'Educational materials on snakebite', 'year': '2024', 'page_or_section': 'Multiple bite management', 'org_type': 'national_authority', 'authority_level': 'national', 'last_verified': '2024-01-10'}]",
+    "timestamp": "2024-01-15"
+  },
+  {
+    "id": "snake_bite_015",
+    "crisis_type": "snake_bite",
+    "severity": "high",
+    "title": "No pain or swelling after snake bite",
+    "source": "[{'org': 'MoHFW (DGHS)', 'document_title': 'Standard Treatment Guidelines: Snakebite', 'year': '2016', 'page_or_section': 'Page 14', 'org_type': 'national_authority', 'authority_level': 'national', 'last_verified': '2024-01-10'}]",
+    "timestamp": "2024-01-15"
+  },
+  {
+    "id": "snake_bite_016",
+    "crisis_type": "snake_bite",
+    "severity": "critical",
+    "title": "Allergic reaction after snake bite",
+    "source": "[{'org': 'WHO', 'document_title': 'Community First Aid Response (CFAR) Pocket Guide', 'year': '2020', 'page_or_section': 'Allergic reaction module', 'org_type': 'national_authority', 'authority_level': 'national', 'last_verified': '2024-01-10'}]",
+    "timestamp": "2024-01-15"
+  },
+  {
+    "id": "snake_bite_017",
+    "crisis_type": "snake_bite",
+    "severity": "medium",
+    "title": "Snake found inside house",
+    "source": "[{'org': 'NHSRC', 'document_title': 'Snakebite page', 'year': '2024', 'page_or_section': 'Prevention and Community Awareness section', 'org_type': 'national_authority', 'authority_level': 'national', 'last_verified': '2024-01-10'}]",
+    "timestamp": "2024-01-15"
+  },
+  {
+    "id": "snake_bite_018",
+    "crisis_type": "snake_bite",
+    "severity": "low",
+    "title": "Preventing snake bite while walking in risky areas",
+    "source": "[{'org': 'NCDC (DGHS, MoHFW)', 'document_title': 'Protocol for Initial Management of Snakebite', 'year': '2024', 'page_or_section': 'Page 2-3', 'org_type': 'national_authority', 'authority_level': 'national', 'last_verified': '2024-01-10'}]",
+    "timestamp": "2024-01-15"
+  },
+  {
+    "id": "snake_bite_019",
+    "crisis_type": "snake_bite",
+    "severity": "medium",
+    "title": "Information to give the hospital after snake bite",
+    "source": "[{'org': 'National Health Mission (NHM)', 'document_title': 'Training Manual / Emergency Module for CHO', 'year': '2023', 'page_or_section': 'Page 5', 'org_type': 'national_authority', 'authority_level': 'national', 'last_verified': '2024-01-10'}]",
+    "timestamp": "2024-01-15"
+  },
+  {
+    "id": "snake_bite_020",
+    "crisis_type": "snake_bite",
+    "severity": "high",
+    "title": "Snake bite near water body",
+    "source": "[{'org': 'MoHFW (DGHS)', 'document_title': 'Standard Treatment Guidelines: Snakebite', 'year': '2016', 'page_or_section': 'Page 13', 'org_type': 'national_authority', 'authority_level': 'national', 'last_verified': '2024-01-10'}]",
+    "timestamp": "2024-01-15"
+  },
+  {
+    "id": "snake_bite_021",
+    "crisis_type": "snake_bite",
+    "severity": "high",
+    "title": "Bitten while snake is still nearby",
+    "source": "[{'org': 'MoHFW (DGHS)', 'document_title': 'Standard Treatment Guidelines: Snakebite', 'year': '2016', 'page_or_section': 'Page 7', 'org_type': 'national_authority', 'authority_level': 'national', 'last_verified': '2024-01-10'}]",
+    "timestamp": "2024-01-15"
+  },
+  {
+    "id": "snake_bite_022",
+    "crisis_type": "snake_bite",
+    "severity": "high",
+    "title": "Victim panicking and trying to run",
+    "source": "[{'org': 'MoHFW (DGHS)', 'document_title': 'Standard Treatment Guidelines: Snakebite', 'year': '2016', 'page_or_section': 'Page 7', 'org_type': 'national_authority', 'authority_level': 'national', 'last_verified': '2024-01-10'}]",
+    "timestamp": "2024-01-15"
+  },
+  {
+    "id": "snake_bite_023",
+    "crisis_type": "snake_bite",
+    "severity": "critical",
+    "title": "Early systemic signs: dizziness and blurred vision",
+    "source": "[{'org': 'MoHFW (DGHS)', 'document_title': 'Standard Treatment Guidelines: Snakebite', 'year': '2016', 'page_or_section': 'Page 10-14', 'org_type': 'national_authority', 'authority_level': 'national', 'last_verified': '2024-01-10'}]",
+    "timestamp": "2024-01-15"
+  },
+  {
+    "id": "snake_bite_024",
+    "crisis_type": "snake_bite",
+    "severity": "critical",
+    "title": "Victim becomes unconscious and stops breathing",
+    "source": "[{'org': 'WHO', 'document_title': 'Basic Emergency Care (BEC)', 'year': '2018', 'page_or_section': 'Airway/Breathing management', 'org_type': 'national_authority', 'authority_level': 'national', 'last_verified': '2024-01-10'}]",
+    "timestamp": "2024-01-15"
+  },
+  {
+    "id": "snake_bite_025",
+    "crisis_type": "snake_bite",
+    "severity": "critical",
+    "title": "Vomiting and severe abdominal pain",
+    "source": "[{'org': 'MoHFW (DGHS)', 'document_title': 'Standard Treatment Guidelines: Snakebite', 'year': '2016', 'page_or_section': 'Page 10-11', 'org_type': 'national_authority', 'authority_level': 'national', 'last_verified': '2024-01-10'}]",
+    "timestamp": "2024-01-15"
+  },
+  {
+    "id": "snake_bite_026",
+    "crisis_type": "snake_bite",
+    "severity": "critical",
+    "title": "Dark urine or unable to pass urine",
+    "source": "[{'org': 'MoHFW (DGHS)', 'document_title': 'Standard Treatment Guidelines: Snakebite', 'year': '2016', 'page_or_section': 'Page 14-15', 'org_type': 'national_authority', 'authority_level': 'national', 'last_verified': '2024-01-10'}]",
+    "timestamp": "2024-01-15"
+  },
+  {
+    "id": "snake_bite_027",
+    "crisis_type": "snake_bite",
+    "severity": "high",
+    "title": "Refusing traditional healer interventions",
+    "source": "[{'org': 'National Health Mission (NHM)', 'document_title': 'Training Manual / Emergency Module for CHO', 'year': '2023', 'page_or_section': 'Note of Caution: harmful traditional practices', 'org_type': 'national_authority', 'authority_level': 'national', 'last_verified': '2024-01-10'}]",
+    "timestamp": "2024-01-15"
+  },
+  {
+    "id": "snake_bite_028",
+    "crisis_type": "snake_bite",
+    "severity": "medium",
+    "title": "Deciding which hospital to go to",
+    "source": "[{'org': 'NCDC (DGHS, MoHFW)', 'document_title': 'Protocol for Initial Management of Snakebite', 'year': '2024', 'page_or_section': 'Management at PHC/CHC level', 'org_type': 'national_authority', 'authority_level': 'national', 'last_verified': '2024-01-10'}]",
+    "timestamp": "2024-01-15"
+  },
+  {
+    "id": "snake_bite_029",
+    "crisis_type": "snake_bite",
+    "severity": "medium",
+    "title": "No visible fang mark after suspected bite",
+    "source": "[{'org': 'MoHFW (DGHS)', 'document_title': 'Standard Treatment Guidelines: Snakebite', 'year': '2016', 'page_or_section': 'Page 8', 'org_type': 'national_authority', 'authority_level': 'national', 'last_verified': '2024-01-10'}]",
+    "timestamp": "2024-01-15"
+  },
+  {
+    "id": "snake_bite_030",
+    "crisis_type": "snake_bite",
+    "severity": "high",
+    "title": "Prolonged transport to hospital (2 hours+)",
+    "source": "[{'org': 'MoHFW (DGHS)', 'document_title': 'Standard Treatment Guidelines: Snakebite', 'year': '2016', 'page_or_section': 'Page 7-8', 'org_type': 'national_authority', 'authority_level': 'national', 'last_verified': '2024-01-10'}]",
+    "timestamp": "2024-01-15"
+  },
+  {
+    "id": "flood_001",
+    "crisis_type": "flood",
+    "severity": "high",
+    "title": "Evacuation Ordered / Flood Warning Issued",
+    "source": "[{'org': 'NDMA', 'document_title': \"Floods: Do's & Don'ts\", 'year': '2023', 'page_or_section': 'Before Floods Section', 'org_type': 'national_authority', 'authority_level': 'national', 'last_verified': '2024-01-10'}]",
+    "timestamp": "2024-01-15"
+  },
+  {
+    "id": "flood_002",
+    "crisis_type": "flood",
+    "severity": "critical",
+    "title": "Flash Flood Imminent",
+    "source": "[{'org': 'IMD', 'document_title': \"Flood Do's and Don'ts\", 'year': '2021', 'page_or_section': 'Flash Flood Section', 'org_type': 'national_authority', 'authority_level': 'national', 'last_verified': '2024-01-10'}]",
+    "timestamp": "2024-01-15"
+  },
+  {
+    "id": "flood_003",
+    "crisis_type": "flood",
+    "severity": "critical",
+    "title": "Walking Through Flooded Urban Areas",
+    "source": "[{'org': 'NDMA', 'document_title': \"Urban Floods: Do's & Don'ts\", 'year': '2023', 'page_or_section': 'During Floods Section', 'org_type': 'national_authority', 'authority_level': 'national', 'last_verified': '2024-01-10'}]",
+    "timestamp": "2024-01-15"
+  },
+  {
+    "id": "flood_004",
+    "crisis_type": "flood",
+    "severity": "critical",
+    "title": "Trapped Inside a House as Water Rises",
+    "source": "[{'org': 'NDMA', 'document_title': \"Floods: Do's & Don'ts\", 'year': '2023', 'page_or_section': 'During Floods Section', 'org_type': 'national_authority', 'authority_level': 'national', 'last_verified': '2024-01-10'}]",
+    "timestamp": "2024-01-15"
+  },
+  {
+    "id": "flood_005",
+    "crisis_type": "flood",
+    "severity": "critical",
+    "title": "Driving a Vehicle into Flooded Roads",
+    "source": "[{'org': 'NIDM', 'document_title': \"Do's and Don'ts for Common Disasters\", 'year': '2020', 'page_or_section': 'Floods Section', 'org_type': 'national_authority', 'authority_level': 'national', 'last_verified': '2024-01-10'}]",
+    "timestamp": "2024-01-15"
+  },
+  {
+    "id": "flood_006",
+    "crisis_type": "flood",
+    "severity": "critical",
+    "title": "Water Enters House Near Electrical Outlets",
+    "source": "[{'org': 'NDMA', 'document_title': \"Urban Floods: Do's & Don'ts\", 'year': '2023', 'page_or_section': 'During Floods Section', 'org_type': 'national_authority', 'authority_level': 'national', 'last_verified': '2024-01-10'}]",
+    "timestamp": "2024-01-15"
+  },
+  {
+    "id": "flood_007",
+    "crisis_type": "flood",
+    "severity": "critical",
+    "title": "Rescuing Someone Swept Away (Reach or Throw)",
+    "source": "[{'org': 'Indian Red Cross Society', 'document_title': 'Indian First Aid Manual, 7th Edition', 'year': '2016', 'page_or_section': 'Page 168 (Water Rescue)', 'org_type': 'national_authority', 'authority_level': 'national', 'last_verified': '2024-01-10'}]",
+    "timestamp": "2024-01-15"
+  },
+  {
+    "id": "flood_008",
+    "crisis_type": "flood",
+    "severity": "critical",
+    "title": "Unconscious Victim Pulled from Water (CPR)",
+    "source": "[{'org': 'Indian Red Cross Society', 'document_title': 'Indian First Aid Manual, 7th Edition', 'year': '2016', 'page_or_section': 'Page 169 (Drowning First Aid)', 'org_type': 'national_authority', 'authority_level': 'national', 'last_verified': '2024-01-10'}]",
+    "timestamp": "2024-01-15"
+  },
+  {
+    "id": "flood_009",
+    "crisis_type": "flood",
+    "severity": "high",
+    "title": "Hypothermia After Water Rescue",
+    "source": "[{'org': 'Indian Red Cross Society', 'document_title': 'Indian First Aid Manual, 7th Edition', 'year': '2016', 'page_or_section': 'Page 109 (Hypothermia)', 'org_type': 'national_authority', 'authority_level': 'national', 'last_verified': '2024-01-10'}]",
+    "timestamp": "2024-01-15"
+  },
+  {
+    "id": "flood_010",
+    "crisis_type": "flood",
+    "severity": "high",
+    "title": "Safe Drinking Water During Floods",
+    "source": "[{'org': 'NDMA', 'document_title': 'National Disaster Management Guidelines: Management of Floods', 'year': '2008', 'page_or_section': 'Page 65 (Drinking water purification)', 'org_type': 'national_authority', 'authority_level': 'national', 'last_verified': '2024-01-10'}]",
+    "timestamp": "2024-01-15"
+  },
+  {
+    "id": "flood_011",
+    "crisis_type": "flood",
+    "severity": "medium",
+    "title": "Encountering Snakes in Floodwater",
+    "source": "[{'org': 'NIDM', 'document_title': 'Flood Safety Tips', 'year': '2020', 'page_or_section': 'PDF Page 3 (Health & Safety)', 'org_type': 'national_authority', 'authority_level': 'national', 'last_verified': '2024-01-10'}]",
+    "timestamp": "2024-01-15"
+  },
+  {
+    "id": "flood_012",
+    "crisis_type": "flood",
+    "severity": "critical",
+    "title": "Improvised Flotation Devices",
+    "source": "[{'org': 'NDRF', 'document_title': 'Flood Rescue and Safety Materials', 'year': '2022', 'page_or_section': 'Public Awareness Modules', 'org_type': 'national_authority', 'authority_level': 'national', 'last_verified': '2024-01-10'}]",
+    "timestamp": "2024-01-15"
+  },
+  {
+    "id": "flood_013",
+    "crisis_type": "flood",
+    "severity": "critical",
+    "title": "Caught in a Fast-Moving Current",
+    "source": "[{'org': 'NDRF', 'document_title': 'Flood Rescue and Safety Materials', 'year': '2022', 'page_or_section': 'Swift Water Survival Techniques', 'org_type': 'national_authority', 'authority_level': 'national', 'last_verified': '2024-01-10'}]",
+    "timestamp": "2024-01-15"
+  },
+  {
+    "id": "flood_014",
+    "crisis_type": "flood",
+    "severity": "high",
+    "title": "Wounds and Cuts from Floodwater",
+    "source": "[{'org': 'WHO', 'document_title': 'Community First Aid Response (CFAR) Pocket Guide', 'year': '2020', 'page_or_section': 'Page 14 (Wound Care)', 'org_type': 'national_authority', 'authority_level': 'national', 'last_verified': '2024-01-10'}]",
+    "timestamp": "2024-01-15"
+  },
+  {
+    "id": "flood_015",
+    "crisis_type": "flood",
+    "severity": "medium",
+    "title": "Returning Home After Flood",
+    "source": "[{'org': 'NDMA', 'document_title': \"Floods: Do's & Don'ts\", 'year': '2023', 'page_or_section': 'After Floods Section', 'org_type': 'national_authority', 'authority_level': 'national', 'last_verified': '2024-01-10'}]",
+    "timestamp": "2024-01-15"
+  },
+  {
+    "id": "flood_016",
+    "crisis_type": "flood",
+    "severity": "low",
+    "title": "Family Readiness in Flood-Prone Areas",
+    "source": "[{'org': 'NIDM', 'document_title': \"Do's and Don'ts for Common Disasters\", 'year': '2020', 'page_or_section': 'PDF Page 5', 'org_type': 'national_authority', 'authority_level': 'national', 'last_verified': '2024-01-10'}]",
+    "timestamp": "2024-01-15"
+  },
+  {
+    "id": "flood_017",
+    "crisis_type": "flood",
+    "severity": "medium",
+    "title": "Protecting Important Documents and Valuables",
+    "source": "[{'org': 'NIDM', 'document_title': \"Do's and Don'ts for Common Disasters\", 'year': '2020', 'page_or_section': 'PDF Page 5', 'org_type': 'national_authority', 'authority_level': 'national', 'last_verified': '2024-01-10'}]",
+    "timestamp": "2024-01-15"
+  },
+  {
+    "id": "flood_018",
+    "crisis_type": "flood",
+    "severity": "medium",
+    "title": "Reducing Damage Inside the House",
+    "source": "[{'org': 'NIDM', 'document_title': \"Do's and Don'ts for Common Disasters\", 'year': '2020', 'page_or_section': 'PDF Page 5', 'org_type': 'national_authority', 'authority_level': 'national', 'last_verified': '2024-01-10'}]",
+    "timestamp": "2024-01-15"
+  },
+  {
+    "id": "flood_019",
+    "crisis_type": "flood",
+    "severity": "medium",
+    "title": "Nutrition for Vulnerable Groups During Flood",
+    "source": "[{'org': 'NIDM', 'document_title': \"Do's and Don'ts for Common Disasters\", 'year': '2020', 'page_or_section': 'PDF Page 5', 'org_type': 'national_authority', 'authority_level': 'national', 'last_verified': '2024-01-10'}]",
+    "timestamp": "2024-01-15"
+  },
+  {
+    "id": "flood_020",
+    "crisis_type": "flood",
+    "severity": "low",
+    "title": "Handling Rumours and Panic",
+    "source": "[{'org': 'NIDM', 'document_title': 'Flood Safety Tips', 'year': '2020', 'page_or_section': 'PDF Page 1', 'org_type': 'national_authority', 'authority_level': 'national', 'last_verified': '2024-01-10'}]",
+    "timestamp": "2024-01-15"
+  },
+  {
+    "id": "flood_021",
+    "crisis_type": "flood",
+    "severity": "medium",
+    "title": "Evacuating Livestock and Pets",
+    "source": "[{'org': 'NDMA', 'document_title': 'National Disaster Management Guidelines: Management of Floods', 'year': '2008', 'page_or_section': 'Page 67 (Livestock management)', 'org_type': 'national_authority', 'authority_level': 'national', 'last_verified': '2024-01-10'}]",
+    "timestamp": "2024-01-15"
+  },
+  {
+    "id": "flood_022",
+    "crisis_type": "flood",
+    "severity": "critical",
+    "title": "Crossing Unknown Floodwater",
+    "source": "[{'org': 'NIDM', 'document_title': 'Flood Safety Tips', 'year': '2020', 'page_or_section': 'PDF Page 1', 'org_type': 'national_authority', 'authority_level': 'national', 'last_verified': '2024-01-10'}]",
+    "timestamp": "2024-01-15"
+  },
+  {
+    "id": "flood_023",
+    "crisis_type": "flood",
+    "severity": "high",
+    "title": "Electrical Safety Before Post-Flood Use",
+    "source": "[{'org': 'NIDM', 'document_title': 'Flood Safety Tips', 'year': '2020', 'page_or_section': 'PDF Page 1', 'org_type': 'national_authority', 'authority_level': 'national', 'last_verified': '2024-01-10'}]",
+    "timestamp": "2024-01-15"
+  },
+  {
+    "id": "flood_024",
+    "crisis_type": "flood",
+    "severity": "high",
+    "title": "Water Chlorination/Purification",
+    "source": "[{'org': 'NDMA', 'document_title': 'National Disaster Management Guidelines: Management of Floods', 'year': '2008', 'page_or_section': 'Page 65 (Adding chlorine / water purification)', 'org_type': 'national_authority', 'authority_level': 'national', 'last_verified': '2024-01-10'}]",
+    "timestamp": "2024-01-15"
+  },
+  {
+    "id": "flood_025",
+    "crisis_type": "flood",
+    "severity": "high",
+    "title": "Food Contamination Risk",
+    "source": "[{'org': 'NIDM', 'document_title': 'Flood Safety Tips', 'year': '2020', 'page_or_section': 'PDF Page 1', 'org_type': 'national_authority', 'authority_level': 'national', 'last_verified': '2024-01-10'}]",
+    "timestamp": "2024-01-15"
+  },
+  {
+    "id": "flood_026",
+    "crisis_type": "flood",
+    "severity": "high",
+    "title": "Diarrhea or Waterborne Illness Outbreak",
+    "source": "[{'org': 'NIDM', 'document_title': 'Flood Safety Tips', 'year': '2020', 'page_or_section': 'PDF Page 1', 'org_type': 'national_authority', 'authority_level': 'national', 'last_verified': '2024-01-10'}]",
+    "timestamp": "2024-01-15"
+  },
+  {
+    "id": "flood_027",
+    "crisis_type": "flood",
+    "severity": "medium",
+    "title": "Moving to a Designated Flood Shelter",
+    "source": "[{'org': 'NDMA', 'document_title': 'National Disaster Management Guidelines: Management of Floods', 'year': '2008', 'page_or_section': 'Page 63 (Raised platforms/flood shelters)', 'org_type': 'national_authority', 'authority_level': 'national', 'last_verified': '2024-01-10'}]",
+    "timestamp": "2024-01-15"
+  },
+  {
+    "id": "flood_028",
+    "crisis_type": "flood",
+    "severity": "high",
+    "title": "Urban Flood-Proofing for Shops/Homes",
+    "source": "[{'org': 'NDMA', 'document_title': 'National Disaster Management Guidelines: Management of Urban Flooding', 'year': '2010', 'page_or_section': 'Page 43/54 (Urban area immediate measures)', 'org_type': 'national_authority', 'authority_level': 'national', 'last_verified': '2024-01-10'}]",
+    "timestamp": "2024-01-15"
+  },
+  {
+    "id": "flood_029",
+    "crisis_type": "flood",
+    "severity": "high",
+    "title": "Post-Flood Sanitation and Hygiene",
+    "source": "[{'org': 'NDMA', 'document_title': 'National Disaster Management Guidelines: Management of Floods', 'year': '2008', 'page_or_section': 'Page 65 (Hygienic practices, toilet use)', 'org_type': 'national_authority', 'authority_level': 'national', 'last_verified': '2024-01-10'}]",
+    "timestamp": "2024-01-15"
+  },
+  {
+    "id": "flood_030",
+    "crisis_type": "flood",
+    "severity": "medium",
+    "title": "Mosquito and Vector Control Post-Flood",
+    "source": "[{'org': 'NDMA', 'document_title': 'National Disaster Management Guidelines: Management of Floods', 'year': '2008', 'page_or_section': 'Page 93 (Vector control; insecticide-treated mosquito nets)', 'org_type': 'national_authority', 'authority_level': 'national', 'last_verified': '2024-01-10'}]",
+    "timestamp": "2024-01-15"
+  },
+  {
+    "id": "earthquake_001",
+    "crisis_type": "earthquake",
+    "severity": "critical",
+    "title": "Drop, Cover, Hold On - Indoors During Shaking",
+    "source": "[{'org': 'NDMA', 'document_title': \"Earthquakes: Do's & Don'ts\", 'year': '2023', 'page_or_section': 'During Earthquakes - Indoors', 'org_type': 'national_authority', 'authority_level': 'national', 'last_verified': '2024-01-10'}]",
+    "timestamp": "2024-01-15"
+  },
+  {
+    "id": "earthquake_002",
+    "crisis_type": "earthquake",
+    "severity": "high",
+    "title": "Earthquake While Sleeping in Bed",
+    "source": "[{'org': 'NDMA', 'document_title': \"Earthquakes: Do's & Don'ts\", 'year': '2023', 'page_or_section': 'During Earthquakes - Indoors (in bed)', 'org_type': 'national_authority', 'authority_level': 'national', 'last_verified': '2024-01-10'}]",
+    "timestamp": "2024-01-15"
+  },
+  {
+    "id": "earthquake_003",
+    "crisis_type": "earthquake",
+    "severity": "high",
+    "title": "Outdoors During Earthquake",
+    "source": "[{'org': 'NDMA', 'document_title': \"Earthquakes: Do's & Don'ts\", 'year': '2023', 'page_or_section': 'During Earthquakes - Outdoors', 'org_type': 'national_authority', 'authority_level': 'national', 'last_verified': '2024-01-10'}]",
+    "timestamp": "2024-01-15"
+  },
+  {
+    "id": "earthquake_004",
+    "crisis_type": "earthquake",
+    "severity": "high",
+    "title": "Driving or Riding During Earthquake",
+    "source": "[{'org': 'NDMA', 'document_title': \"Earthquakes: Do's & Don'ts\", 'year': '2023', 'page_or_section': 'During Earthquakes - In a moving vehicle', 'org_type': 'national_authority', 'authority_level': 'national', 'last_verified': '2024-01-10'}]",
+    "timestamp": "2024-01-15"
+  },
+  {
+    "id": "earthquake_005",
+    "crisis_type": "earthquake",
+    "severity": "high",
+    "title": "Immediately After Shaking Stops",
+    "source": "[{'org': 'NDMA', 'document_title': \"Earthquakes: Do's & Don'ts\", 'year': '2023', 'page_or_section': 'After Earthquakes', 'org_type': 'national_authority', 'authority_level': 'national', 'last_verified': '2024-01-10'}]",
+    "timestamp": "2024-01-15"
+  },
+  {
+    "id": "earthquake_006",
+    "crisis_type": "earthquake",
+    "severity": "critical",
+    "title": "Gas Leak After Earthquake",
+    "source": "[{'org': 'NIDM', 'document_title': 'Earthquake Safety Tips', 'year': '2020', 'page_or_section': 'After Earthquake - Utility hazards', 'org_type': 'national_authority', 'authority_level': 'national', 'last_verified': '2024-01-10'}]",
+    "timestamp": "2024-01-15"
+  },
+  {
+    "id": "earthquake_007",
+    "crisis_type": "earthquake",
+    "severity": "critical",
+    "title": "Trapped Under Rubble",
+    "source": "[{'org': 'NDMA / NDRF', 'document_title': \"Earthquakes: Do's & Don'ts / CSSR Guidelines\", 'year': '2023', 'page_or_section': 'If trapped under debris', 'org_type': 'national_authority', 'authority_level': 'national', 'last_verified': '2024-01-10'}]",
+    "timestamp": "2024-01-15"
+  },
+  {
+    "id": "earthquake_008",
+    "crisis_type": "earthquake",
+    "severity": "high",
+    "title": "High-Rise Building During Earthquake",
+    "source": "[{'org': 'NIDM', 'document_title': \"Do's and Don'ts for Common Disasters\", 'year': '2020', 'page_or_section': 'Earthquake - High-rise buildings', 'org_type': 'national_authority', 'authority_level': 'national', 'last_verified': '2024-01-10'}]",
+    "timestamp": "2024-01-15"
+  },
+  {
+    "id": "earthquake_009",
+    "crisis_type": "earthquake",
+    "severity": "high",
+    "title": "Crowded Public Place During Earthquake",
+    "source": "[{'org': 'NDMA', 'document_title': \"Earthquakes: Do's & Don'ts\", 'year': '2023', 'page_or_section': 'Crowded indoor public places', 'org_type': 'national_authority', 'authority_level': 'national', 'last_verified': '2024-01-10'}]",
+    "timestamp": "2024-01-15"
+  },
+  {
+    "id": "earthquake_010",
+    "crisis_type": "earthquake",
+    "severity": "critical",
+    "title": "Severe Bleeding After Earthquake Injury",
+    "source": "[{'org': 'WHO', 'document_title': 'Community First Aid Response (CFAR) Pocket Guide', 'year': '2020', 'page_or_section': 'Page 4-5 (Major Bleeding)', 'org_type': 'national_authority', 'authority_level': 'national', 'last_verified': '2024-01-10'}]",
+    "timestamp": "2024-01-15"
+  },
+  {
+    "id": "earthquake_011",
+    "crisis_type": "earthquake",
+    "severity": "critical",
+    "title": "Crush Injury - Person Pinned by Heavy Object",
+    "source": "[{'org': 'MoHFW (DGHS)', 'document_title': 'Standard Treatment Guidelines for Management of Trauma', 'year': '2021', 'page_or_section': 'Page 48 (Crush Syndrome)', 'org_type': 'national_authority', 'authority_level': 'national', 'last_verified': '2024-01-10'}]",
+    "timestamp": "2024-01-15"
+  },
+  {
+    "id": "earthquake_012",
+    "crisis_type": "earthquake",
+    "severity": "critical",
+    "title": "Coastal Earthquake - Tsunami Risk",
+    "source": "[{'org': 'NDMA', 'document_title': \"Earthquakes: Do's & Don'ts\", 'year': '2023', 'page_or_section': 'After Earthquakes - Tsunami hazard', 'org_type': 'national_authority', 'authority_level': 'national', 'last_verified': '2024-01-10'}]",
+    "timestamp": "2024-01-15"
+  },
+  {
+    "id": "earthquake_013",
+    "crisis_type": "earthquake",
+    "severity": "critical",
+    "title": "Suspected Spinal Injury After Earthquake",
+    "source": "[{'org': 'Indian Red Cross Society', 'document_title': 'Indian First Aid Manual, 7th Edition', 'year': '2016', 'page_or_section': 'Page 126 (Spinal Injuries)', 'org_type': 'national_authority', 'authority_level': 'national', 'last_verified': '2024-01-10'}]",
+    "timestamp": "2024-01-15"
+  },
+  {
+    "id": "earthquake_014",
+    "crisis_type": "earthquake",
+    "severity": "low",
+    "title": "Non-Structural Mitigation - Preparing Your Home",
+    "source": "[{'org': 'MHA / BMTPC', 'document_title': 'Earthquake Safety Guidelines / NDMA NERMP Materials', 'year': '2021', 'page_or_section': 'Non-Structural Mitigation Module', 'org_type': 'national_authority', 'authority_level': 'national', 'last_verified': '2024-01-10'}]",
+    "timestamp": "2024-01-15"
+  },
+  {
+    "id": "earthquake_015",
+    "crisis_type": "earthquake",
+    "severity": "medium",
+    "title": "Communication After Earthquake",
+    "source": "[{'org': 'NDMA', 'document_title': \"Earthquakes: Do's & Don'ts\", 'year': '2023', 'page_or_section': 'After Earthquakes - Communication', 'org_type': 'national_authority', 'authority_level': 'national', 'last_verified': '2024-01-10'}]",
+    "timestamp": "2024-01-15"
+  },
+  {
+    "id": "earthquake_016",
+    "crisis_type": "earthquake",
+    "severity": "high",
+    "title": "Cooking on Gas Stove During Earthquake",
+    "source": "[{'org': 'NDMA / NIDM', 'document_title': \"Earthquakes: Do's & Don'ts / Earthquake Safety Tips\", 'year': '2023', 'page_or_section': 'During Earthquake - Indoor / Kitchen', 'org_type': 'national_authority', 'authority_level': 'national', 'last_verified': '2024-01-10'}]",
+    "timestamp": "2024-01-15"
+  },
+  {
+    "id": "earthquake_017",
+    "crisis_type": "earthquake",
+    "severity": "high",
+    "title": "School or Classroom During Earthquake",
+    "source": "[{'org': 'NIDM', 'document_title': \"Do's and Don'ts for Common Disasters\", 'year': '2020', 'page_or_section': 'Earthquake - Schools', 'org_type': 'national_authority', 'authority_level': 'national', 'last_verified': '2024-01-10'}]",
+    "timestamp": "2024-01-15"
+  },
+  {
+    "id": "earthquake_018",
+    "crisis_type": "earthquake",
+    "severity": "high",
+    "title": "Hospital During Earthquake",
+    "source": "[{'org': 'NDMA / NIDM', 'document_title': \"Earthquakes: Do's & Don'ts\", 'year': '2023', 'page_or_section': 'During Earthquake - Indoor / Hospitals', 'org_type': 'national_authority', 'authority_level': 'national', 'last_verified': '2024-01-10'}]",
+    "timestamp": "2024-01-15"
+  },
+  {
+    "id": "earthquake_019",
+    "crisis_type": "earthquake",
+    "severity": "high",
+    "title": "Assisting Elderly or Disabled Person",
+    "source": "[{'org': 'WHO', 'document_title': 'Community First Aid Response (CFAR) Pocket Guide', 'year': '2020', 'page_or_section': 'Special Populations', 'org_type': 'national_authority', 'authority_level': 'national', 'last_verified': '2024-01-10'}]",
+    "timestamp": "2024-01-15"
+  },
+  {
+    "id": "earthquake_020",
+    "crisis_type": "earthquake",
+    "severity": "critical",
+    "title": "Downed or Sparking Power Line",
+    "source": "[{'org': 'NDMA / NIDM', 'document_title': \"Earthquakes: Do's & Don'ts\", 'year': '2023', 'page_or_section': 'After Earthquake - Utility hazards', 'org_type': 'national_authority', 'authority_level': 'national', 'last_verified': '2024-01-10'}]",
+    "timestamp": "2024-01-15"
+  },
+  {
+    "id": "earthquake_021",
+    "crisis_type": "earthquake",
+    "severity": "high",
+    "title": "Re-entering Building After Earthquake",
+    "source": "[{'org': 'NDMA / NIDM', 'document_title': \"Earthquakes: Do's & Don'ts\", 'year': '2023', 'page_or_section': 'After Earthquake', 'org_type': 'national_authority', 'authority_level': 'national', 'last_verified': '2024-01-10'}]",
+    "timestamp": "2024-01-15"
+  },
+  {
+    "id": "earthquake_022",
+    "crisis_type": "earthquake",
+    "severity": "critical",
+    "title": "Earthquake Near Hillside - Landslide Risk",
+    "source": "[{'org': 'NDMA', 'document_title': 'National Disaster Management Guidelines: Management of Earthquakes', 'year': '2007', 'page_or_section': 'Secondary Hazards - Landslides', 'org_type': 'national_authority', 'authority_level': 'national', 'last_verified': '2024-01-10'}]",
+    "timestamp": "2024-01-15"
+  },
+  {
+    "id": "earthquake_023",
+    "crisis_type": "earthquake",
+    "severity": "critical",
+    "title": "Unconscious Person Trapped in Rubble",
+    "source": "[{'org': 'Indian Red Cross Society / WHO', 'document_title': 'Indian First Aid Manual / CFAR Guide', 'year': '2016/2020', 'page_or_section': 'IRCS Page 85-88 (CPR) / CFAR Page 8', 'org_type': 'national_authority', 'authority_level': 'national', 'last_verified': '2024-01-10'}]",
+    "timestamp": "2024-01-15"
+  },
+  {
+    "id": "earthquake_024",
+    "crisis_type": "earthquake",
+    "severity": "high",
+    "title": "Trapped in Elevator During Earthquake",
+    "source": "[{'org': 'NIDM', 'document_title': \"Do's and Don'ts for Common Disasters\", 'year': '2020', 'page_or_section': 'Earthquake - Lifts/Elevators', 'org_type': 'national_authority', 'authority_level': 'national', 'last_verified': '2024-01-10'}]",
+    "timestamp": "2024-01-15"
+  },
+  {
+    "id": "earthquake_025",
+    "crisis_type": "earthquake",
+    "severity": "high",
+    "title": "Community Response - Untrained Neighbor Help",
+    "source": "[{'org': 'NDRF / NDMA', 'document_title': 'Collapsed Structure Search & Rescue (CSSR) Materials', 'year': '2022', 'page_or_section': 'Community Awareness Guidelines', 'org_type': 'national_authority', 'authority_level': 'national', 'last_verified': '2024-01-10'}]",
+    "timestamp": "2024-01-15"
+  },
+  {
+    "id": "earthquake_026",
+    "crisis_type": "earthquake",
+    "severity": "critical",
+    "title": "Kitchen Fire After Earthquake",
+    "source": "[{'org': 'NIDM / NDMA', 'document_title': 'Earthquake Safety Tips', 'year': '2020', 'page_or_section': 'Post-Earthquake Fire hazards', 'org_type': 'national_authority', 'authority_level': 'national', 'last_verified': '2024-01-10'}]",
+    "timestamp": "2024-01-15"
+  },
+  {
+    "id": "earthquake_027",
+    "crisis_type": "earthquake",
+    "severity": "high",
+    "title": "Railway Station or Train During Earthquake",
+    "source": "[{'org': 'NDMA', 'document_title': \"Earthquakes: Do's & Don'ts\", 'year': '2023', 'page_or_section': 'During Earthquake - Public transport', 'org_type': 'national_authority', 'authority_level': 'national', 'last_verified': '2024-01-10'}]",
+    "timestamp": "2024-01-15"
+  },
+  {
+    "id": "earthquake_028",
+    "crisis_type": "earthquake",
+    "severity": "high",
+    "title": "Water Supply Contamination After Earthquake",
+    "source": "[{'org': 'NDMA', 'document_title': 'National Disaster Management Guidelines: Management of Earthquakes', 'year': '2007', 'page_or_section': 'Chapter 4 - Post-earthquake utilities', 'org_type': 'national_authority', 'authority_level': 'national', 'last_verified': '2024-01-10'}]",
+    "timestamp": "2024-01-15"
+  },
+  {
+    "id": "earthquake_029",
+    "crisis_type": "earthquake",
+    "severity": "critical",
+    "title": "Seizure After Head Trauma",
+    "source": "[{'org': 'Indian Red Cross Society', 'document_title': 'Indian First Aid Manual, 7th Edition', 'year': '2016', 'page_or_section': 'Page 118 (Seizures)', 'org_type': 'national_authority', 'authority_level': 'national', 'last_verified': '2024-01-10'}]",
+    "timestamp": "2024-01-15"
+  },
+  {
+    "id": "earthquake_030",
+    "crisis_type": "earthquake",
+    "severity": "low",
+    "title": "Family Earthquake Emergency Plan",
+    "source": "[{'org': 'NDMA', 'document_title': 'National Earthquake Risk Mitigation Project (NERMP) Materials', 'year': '2021', 'page_or_section': 'Community Preparedness Module', 'org_type': 'national_authority', 'authority_level': 'national', 'last_verified': '2024-01-10'}]",
+    "timestamp": "2024-01-15"
+  },
+  {
+    "id": "gas_001",
+    "crisis_type": "gas_leak",
+    "severity": "high",
+    "title": "Domestic LPG Leak Suspected",
+    "source": "[{'org': 'Indian Oil Corporation (IOCL)', 'document_title': 'LPG Safety Guidelines for Consumers', 'year': '2023', 'page_or_section': 'Safety Section - In Case of Leakage', 'org_type': 'national_authority', 'authority_level': 'national', 'last_verified': '2024-01-10'}]",
+    "timestamp": "2024-01-15"
+  },
+  {
+    "id": "gas_002",
+    "crisis_type": "gas_leak",
+    "severity": "critical",
+    "title": "Fire at LPG Cylinder Nozzle",
+    "source": "[{'org': 'Directorate General Fire Services (MHA)', 'document_title': 'LPG Cylinder Fire Safety Instructions', 'year': '2023', 'page_or_section': 'Mass Awareness Section', 'org_type': 'national_authority', 'authority_level': 'national', 'last_verified': '2024-01-10'}]",
+    "timestamp": "2024-01-15"
+  },
+  {
+    "id": "gas_003",
+    "crisis_type": "gas_leak",
+    "severity": "critical",
+    "title": "Toxic Industrial Gas Cloud Approaching",
+    "source": "[{'org': 'NDMA', 'document_title': 'National Disaster Management Guidelines: Management of Chemical Disasters', 'year': '2007', 'page_or_section': 'Page 104 (Public Response)', 'org_type': 'national_authority', 'authority_level': 'national', 'last_verified': '2024-01-10'}]",
+    "timestamp": "2024-01-15"
+  },
+  {
+    "id": "gas_004",
+    "crisis_type": "gas_leak",
+    "severity": "high",
+    "title": "Gas Leak in High-Rise Building",
+    "source": "[{'org': 'NIDM', 'document_title': \"Do's and Don'ts for Common Disasters\", 'year': '2020', 'page_or_section': 'Chemical/Gas Leak Section', 'org_type': 'national_authority', 'authority_level': 'national', 'last_verified': '2024-01-10'}]",
+    "timestamp": "2024-01-15"
+  },
+  {
+    "id": "gas_005",
+    "crisis_type": "gas_leak",
+    "severity": "high",
+    "title": "Suspected Leak in CNG/LPG Vehicle",
+    "source": "[{'org': 'PESO', 'document_title': 'LPG/CNG Safety Norms for Vehicles', 'year': '2021', 'page_or_section': 'Section 4.2', 'org_type': 'national_authority', 'authority_level': 'national', 'last_verified': '2024-01-10'}]",
+    "timestamp": "2024-01-15"
+  },
+  {
+    "id": "gas_006",
+    "crisis_type": "gas_leak",
+    "severity": "critical",
+    "title": "Unconscious Victim in Gas-Filled Room",
+    "source": "[{'org': 'Indian Red Cross Society', 'document_title': 'Indian First Aid Manual, 7th Edition', 'year': '2016', 'page_or_section': 'Page 122 (Poisonous Gases)', 'org_type': 'national_authority', 'authority_level': 'national', 'last_verified': '2024-01-10'}]",
+    "timestamp": "2024-01-15"
+  },
+  {
+    "id": "gas_007",
+    "crisis_type": "gas_leak",
+    "severity": "high",
+    "title": "Gas Contact with Eyes",
+    "source": "[{'org': 'WHO', 'document_title': 'Community First Aid Response (CFAR) Pocket Guide', 'year': '2020', 'page_or_section': 'Page 18 (Eye Injury)', 'org_type': 'national_authority', 'authority_level': 'national', 'last_verified': '2024-01-10'}]",
+    "timestamp": "2024-01-15"
+  },
+  {
+    "id": "gas_008",
+    "crisis_type": "gas_leak",
+    "severity": "high",
+    "title": "Chemical Splash on Skin",
+    "source": "[{'org': 'MoHFW / NCDC', 'document_title': 'Guidelines on Toxic Gas Exposure Management', 'year': '2022', 'page_or_section': 'Module 3 (Exposure Management)', 'org_type': 'national_authority', 'authority_level': 'national', 'last_verified': '2024-01-10'}]",
+    "timestamp": "2024-01-15"
+  },
+  {
+    "id": "gas_009",
+    "crisis_type": "gas_leak",
+    "severity": "critical",
+    "title": "Hissing Sound from LPG Cylinder",
+    "source": "[{'org': 'Ministry of Petroleum & Natural Gas', 'document_title': 'Official LPG Safety Booklet', 'year': '2021', 'page_or_section': 'Emergency Response Section', 'org_type': 'national_authority', 'authority_level': 'national', 'last_verified': '2024-01-10'}]",
+    "timestamp": "2024-01-15"
+  },
+  {
+    "id": "gas_010",
+    "crisis_type": "gas_leak",
+    "severity": "critical",
+    "title": "Gas Leak in Basement or Enclosed Space",
+    "source": "[{'org': 'PESO', 'document_title': 'LPG Safety Guidelines', 'year': '2021', 'page_or_section': 'Section 5 (Storage and Ventilation)', 'org_type': 'national_authority', 'authority_level': 'national', 'last_verified': '2024-01-10'}]",
+    "timestamp": "2024-01-15"
+  },
+  {
+    "id": "gas_011",
+    "crisis_type": "gas_leak",
+    "severity": "high",
+    "title": "Ammonia Leak (Refrigeration/Industrial)",
+    "source": "[{'org': 'DGFASLI', 'document_title': 'Ammonia Gas Leak Emergency Response', 'year': '2021', 'page_or_section': 'Emergency Procedure Section', 'org_type': 'national_authority', 'authority_level': 'national', 'last_verified': '2024-01-10'}]",
+    "timestamp": "2024-01-15"
+  },
+  {
+    "id": "gas_012",
+    "crisis_type": "gas_leak",
+    "severity": "critical",
+    "title": "Chlorine Gas Leak (Water Plant/Pool)",
+    "source": "[{'org': 'DGFASLI', 'document_title': 'Chlorine Gas Safety Instructions', 'year': '2022', 'page_or_section': 'Response to Chlorine Leaks', 'org_type': 'national_authority', 'authority_level': 'national', 'last_verified': '2024-01-10'}]",
+    "timestamp": "2024-01-15"
+  },
+  {
+    "id": "gas_013",
+    "crisis_type": "gas_leak",
+    "severity": "critical",
+    "title": "Hydrogen Sulfide (H2S) Sewer Gas Exposure",
+    "source": "[{'org': 'NCDC', 'document_title': 'Guidelines on Toxic Gas Exposure Management', 'year': '2022', 'page_or_section': 'Sewer Gas / H2S Protocol', 'org_type': 'national_authority', 'authority_level': 'national', 'last_verified': '2024-01-10'}]",
+    "timestamp": "2024-01-15"
+  },
+  {
+    "id": "gas_014",
+    "crisis_type": "gas_leak",
+    "severity": "high",
+    "title": "Household Chemical Mixing (Toxic Fumes)",
+    "source": "[{'org': 'NDMA', 'document_title': 'Home Chemical Safety Guidelines', 'year': '2023', 'page_or_section': 'Indoor Chemical Emergencies', 'org_type': 'national_authority', 'authority_level': 'national', 'last_verified': '2024-01-10'}]",
+    "timestamp": "2024-01-15"
+  },
+  {
+    "id": "gas_015",
+    "crisis_type": "gas_leak",
+    "severity": "critical",
+    "title": "Suspicious Smell in Public Place (Chemical Terrorism)",
+    "source": "[{'org': 'NDMA', 'document_title': 'Guidelines on Chemical (Terrorism) Disasters', 'year': '2009', 'page_or_section': 'Page 42 (Public Safety)', 'org_type': 'national_authority', 'authority_level': 'national', 'last_verified': '2024-01-10'}]",
+    "timestamp": "2024-01-15"
+  },
+  {
+    "id": "gas_016",
+    "crisis_type": "gas_leak",
+    "severity": "critical",
+    "title": "Gas Leak During Earthquake",
+    "source": "[{'org': 'NIDM', 'document_title': 'Earthquake Safety Tips', 'year': '2020', 'page_or_section': 'Post-Earthquake Hazards', 'org_type': 'national_authority', 'authority_level': 'national', 'last_verified': '2024-01-10'}]",
+    "timestamp": "2024-01-15"
+  },
+  {
+    "id": "gas_017",
+    "crisis_type": "gas_leak",
+    "severity": "medium",
+    "title": "Leaking Regulator or Pipe During Change",
+    "source": "[{'org': 'IOCL', 'document_title': 'LPG Safety Guidelines', 'year': '2023', 'page_or_section': 'Safety while changing cylinder', 'org_type': 'national_authority', 'authority_level': 'national', 'last_verified': '2024-01-10'}]",
+    "timestamp": "2024-01-15"
+  },
+  {
+    "id": "gas_018",
+    "crisis_type": "gas_leak",
+    "severity": "high",
+    "title": "Gas Leak While Sleeping",
+    "source": "[{'org': 'Directorate General Fire Services (MHA)', 'document_title': 'LPG Safety Pamphlet', 'year': '2023', 'page_or_section': 'Night Safety Section', 'org_type': 'national_authority', 'authority_level': 'national', 'last_verified': '2024-01-10'}]",
+    "timestamp": "2024-01-15"
+  },
+  {
+    "id": "gas_019",
+    "crisis_type": "gas_leak",
+    "severity": "medium",
+    "title": "Safe Post-Leak Re-entry",
+    "source": "[{'org': 'NDMA', 'document_title': \"Do's & Don'ts for Chemical Disasters\", 'year': '2023', 'page_or_section': 'After Disasters', 'org_type': 'national_authority', 'authority_level': 'national', 'last_verified': '2024-01-10'}]",
+    "timestamp": "2024-01-15"
+  },
+  {
+    "id": "gas_020",
+    "crisis_type": "gas_leak",
+    "severity": "high",
+    "title": "Visible Mist/Vapor Cloud from Pipeline",
+    "source": "[{'org': 'NDMA', 'document_title': 'Guidelines on Chemical Disasters', 'year': '2007', 'page_or_section': 'Page 104', 'org_type': 'national_authority', 'authority_level': 'national', 'last_verified': '2024-01-10'}]",
+    "timestamp": "2024-01-15"
+  },
+  {
+    "id": "gas_021",
+    "crisis_type": "gas_leak",
+    "severity": "medium",
+    "title": "Gas Detector Alarm Activated",
+    "source": "[{'org': 'BIS', 'document_title': 'Code of Practice for LPG Installations (IS 6044)', 'year': '2018', 'page_or_section': 'Safety Devices Section', 'org_type': 'national_authority', 'authority_level': 'national', 'last_verified': '2024-01-10'}]",
+    "timestamp": "2024-01-15"
+  },
+  {
+    "id": "gas_022",
+    "crisis_type": "gas_leak",
+    "severity": "high",
+    "title": "Neighbor's Gas Leak Alert",
+    "source": "[{'org': 'NIDM', 'document_title': 'Chemical Disaster Safety Tips', 'year': '2020', 'page_or_section': 'Community Safety', 'org_type': 'national_authority', 'authority_level': 'national', 'last_verified': '2024-01-10'}]",
+    "timestamp": "2024-01-15"
+  },
+  {
+    "id": "gas_023",
+    "crisis_type": "gas_leak",
+    "severity": "critical",
+    "title": "Gas Leak During a Fire (Not at cylinder)",
+    "source": "[{'org': 'Directorate General Fire Services (MHA)', 'document_title': 'Fire Prevention Guidelines', 'year': '2023', 'page_or_section': 'Cylinder Safety in Fires', 'org_type': 'national_authority', 'authority_level': 'national', 'last_verified': '2024-01-10'}]",
+    "timestamp": "2024-01-15"
+  },
+  {
+    "id": "gas_024",
+    "crisis_type": "gas_leak",
+    "severity": "low",
+    "title": "Expired Safety Hose Check",
+    "source": "[{'org': 'Ministry of Petroleum & Natural Gas', 'document_title': 'LPG Safety Booklet', 'year': '2021', 'page_or_section': 'Hose and Regulator Maintenance', 'org_type': 'national_authority', 'authority_level': 'national', 'last_verified': '2024-01-10'}]",
+    "timestamp": "2024-01-15"
+  },
+  {
+    "id": "gas_025",
+    "crisis_type": "gas_leak",
+    "severity": "high",
+    "title": "Gas Leak in Commercial Kitchen (Restaurant)",
+    "source": "[{'org': 'BIS', 'document_title': 'IS 6044: Code of Practice for LPG Installations', 'year': '2018', 'page_or_section': 'Emergency Procedures', 'org_type': 'national_authority', 'authority_level': 'national', 'last_verified': '2024-01-10'}]",
+    "timestamp": "2024-01-15"
+  },
+  {
+    "id": "gas_026",
+    "crisis_type": "gas_leak",
+    "severity": "medium",
+    "title": "Gas Leak in Well-Ventilated Area (Balcony)",
+    "source": "[{'org': 'IOCL', 'document_title': 'LPG Safety Guidelines', 'year': '2023', 'page_or_section': 'Outdoor Safety', 'org_type': 'national_authority', 'authority_level': 'national', 'last_verified': '2024-01-10'}]",
+    "timestamp": "2024-01-15"
+  },
+  {
+    "id": "gas_027",
+    "crisis_type": "gas_leak",
+    "severity": "high",
+    "title": "Toxic Smoke from Burnt Chemical Containers",
+    "source": "[{'org': 'NCDC', 'document_title': 'Guidelines on Toxic Gas Exposure Management', 'year': '2022', 'page_or_section': 'Toxic Smoke Protocol', 'org_type': 'national_authority', 'authority_level': 'national', 'last_verified': '2024-01-10'}]",
+    "timestamp": "2024-01-15"
+  },
+  {
+    "id": "gas_028",
+    "crisis_type": "gas_leak",
+    "severity": "high",
+    "title": "Gas Leak in Public Subway or Underground station",
+    "source": "[{'org': 'NDMA', 'document_title': 'Chemical (Terrorism) Disasters Guidelines', 'year': '2009', 'page_or_section': 'Page 42', 'org_type': 'national_authority', 'authority_level': 'national', 'last_verified': '2024-01-10'}]",
+    "timestamp": "2024-01-15"
+  },
+  {
+    "id": "gas_029",
+    "crisis_type": "gas_leak",
+    "severity": "medium",
+    "title": "Minor Leak in Industrial Workplace",
+    "source": "[{'org': 'DGFASLI', 'document_title': 'Emergency Action Plans and Preparedness', 'year': '2023', 'page_or_section': 'Industrial Safety Protocol', 'org_type': 'national_authority', 'authority_level': 'national', 'last_verified': '2024-01-10'}]",
+    "timestamp": "2024-01-15"
+  },
+  {
+    "id": "gas_030",
+    "crisis_type": "gas_leak",
+    "severity": "high",
+    "title": "Contaminated Clothing from Chemical Splash",
+    "source": "[{'org': 'MoHFW / NCDC', 'document_title': 'Guidelines on Toxic Gas Exposure Management', 'year': '2022', 'page_or_section': 'Decontamination Protocol', 'org_type': 'national_authority', 'authority_level': 'national', 'last_verified': '2024-01-10'}]",
+    "timestamp": "2024-01-15"
+  },
+  {
+    "id": "violence_001",
+    "crisis_type": "violence",
+    "severity": "critical",
+    "title": "Experiencing Immediate Domestic Violence \u2013 Emergency Rescue",
+    "source": "[{'org': 'Ministry of Women and Child Development (MWCD)', 'document_title': 'Women Helpline (181) & One Stop Centre Scheme', 'year': '2023', 'page_or_section': 'Official Schemes Section', 'org_type': 'national_authority', 'authority_level': 'national', 'last_verified': '2024-01-10'}, {'org': 'The Protection of Women from Domestic Violence Act, 2005', 'document_title': 'Official Act', 'year': '2005', 'page_or_section': 'Section 4 & 5', 'org_type': 'national_authority', 'authority_level': 'national', 'last_verified': '2024-01-10'}]",
+    "timestamp": "2024-01-15"
+  },
+  {
+    "id": "violence_002",
+    "crisis_type": "violence",
+    "severity": "high",
+    "title": "Witnessing a Physical Assault or Street Fight",
+    "source": "[{'org': 'Ministry of Home Affairs (MHA)', 'document_title': 'Citizen Safety Guidelines', 'year': '2023', 'page_or_section': 'Bystander Response', 'org_type': 'national_authority', 'authority_level': 'national', 'last_verified': '2024-01-10'}]",
+    "timestamp": "2024-01-15"
+  },
+  {
+    "id": "violence_003",
+    "crisis_type": "violence",
+    "severity": "critical",
+    "title": "Severe Bleeding from Stab or Assault Wound",
+    "source": "[{'org': 'Indian Red Cross Society', 'document_title': 'Indian First Aid Manual, 7th Edition', 'year': '2016', 'page_or_section': 'Page 92-94', 'org_type': 'national_authority', 'authority_level': 'national', 'last_verified': '2024-01-10'}]",
+    "timestamp": "2024-01-15"
+  },
+  {
+    "id": "violence_004",
+    "crisis_type": "violence",
+    "severity": "critical",
+    "title": "Active Shooter or Gunshot Incident in Public Place",
+    "source": "[{'org': 'NDRF / NDMA', 'document_title': 'Active Shooter / Terror Violence Response Guidelines', 'year': '2022', 'page_or_section': 'Run-Hide-Fight Protocol', 'org_type': 'national_authority', 'authority_level': 'national', 'last_verified': '2024-01-10'}]",
+    "timestamp": "2024-01-15"
+  },
+  {
+    "id": "violence_005",
+    "crisis_type": "violence",
+    "severity": "high",
+    "title": "Creating a Domestic Violence Safety Plan",
+    "source": "[{'org': 'Ministry of Women and Child Development (MWCD)', 'document_title': 'Protection of Women from Domestic Violence Act, 2005 & Guidelines', 'year': '2005', 'page_or_section': 'Section 9 & Safety Planning', 'org_type': 'national_authority', 'authority_level': 'national', 'last_verified': '2024-01-10'}]",
+    "timestamp": "2024-01-15"
+  },
+  {
+    "id": "violence_006",
+    "crisis_type": "violence",
+    "severity": "critical",
+    "title": "Caught in a Riot or Mob Violence",
+    "source": "[{'org': 'NDMA', 'document_title': 'Guidelines on Management of Crowd Disasters / Mob Violence', 'year': '2014', 'page_or_section': 'Page 58-60', 'org_type': 'national_authority', 'authority_level': 'national', 'last_verified': '2024-01-10'}]",
+    "timestamp": "2024-01-15"
+  },
+  {
+    "id": "violence_007",
+    "crisis_type": "violence",
+    "severity": "critical",
+    "title": "Unconscious Victim After Assault",
+    "source": "[{'org': 'Indian Red Cross Society', 'document_title': 'Indian First Aid Manual, 7th Edition', 'year': '2016', 'page_or_section': 'Page 78-80 (Unconscious Casualty)', 'org_type': 'national_authority', 'authority_level': 'national', 'last_verified': '2024-01-10'}]",
+    "timestamp": "2024-01-15"
+  },
+  {
+    "id": "violence_008",
+    "crisis_type": "violence",
+    "severity": "high",
+    "title": "Filing a Formal Complaint for Domestic Violence",
+    "source": "[{'org': 'The Protection of Women from Domestic Violence Act, 2005', 'document_title': 'Official Act', 'year': '2005', 'page_or_section': 'Section 4 & 5', 'org_type': 'national_authority', 'authority_level': 'national', 'last_verified': '2024-01-10'}]",
+    "timestamp": "2024-01-15"
+  },
+  {
+    "id": "violence_009",
+    "crisis_type": "violence",
+    "severity": "critical",
+    "title": "Bomb Threat or Suspicious Object in Public Place",
+    "source": "[{'org': 'NDMA', 'document_title': 'Guidelines on Management of Chemical (Terrorism) Disasters', 'year': '2009', 'page_or_section': 'Page 42', 'org_type': 'national_authority', 'authority_level': 'national', 'last_verified': '2024-01-10'}]",
+    "timestamp": "2024-01-15"
+  },
+  {
+    "id": "violence_010",
+    "crisis_type": "violence",
+    "severity": "critical",
+    "title": "First Aid for Gunshot Wound",
+    "source": "[{'org': 'MoHFW (DGHS)', 'document_title': 'Standard Treatment Guidelines for Management of Trauma', 'year': '2021', 'page_or_section': 'Page 25-28', 'org_type': 'national_authority', 'authority_level': 'national', 'last_verified': '2024-01-10'}]",
+    "timestamp": "2024-01-15"
+  },
+  {
+    "id": "violence_011",
+    "crisis_type": "violence",
+    "severity": "high",
+    "title": "Being Followed or Threatened on the Street",
+    "source": "[{'org': 'Delhi Police', 'document_title': 'Citizen Safety Guidelines', 'year': '2023', 'page_or_section': 'Street Safety Section', 'org_type': 'national_authority', 'authority_level': 'national', 'last_verified': '2024-01-10'}]",
+    "timestamp": "2024-01-15"
+  },
+  {
+    "id": "violence_012",
+    "crisis_type": "violence",
+    "severity": "high",
+    "title": "Fracture from Blunt Force Assault",
+    "source": "[{'org': 'Indian Red Cross Society', 'document_title': 'Indian First Aid Manual, 7th Edition', 'year': '2016', 'page_or_section': 'Page 125-127', 'org_type': 'national_authority', 'authority_level': 'national', 'last_verified': '2024-01-10'}]",
+    "timestamp": "2024-01-15"
+  },
+  {
+    "id": "violence_013",
+    "crisis_type": "violence",
+    "severity": "critical",
+    "title": "Vehicle Surrounded by Violent Mob",
+    "source": "[{'org': 'NDMA', 'document_title': 'Guidelines on Management of Crowd Disasters / Mob Violence', 'year': '2014', 'page_or_section': 'Page 56', 'org_type': 'national_authority', 'authority_level': 'national', 'last_verified': '2024-01-10'}]",
+    "timestamp": "2024-01-15"
+  },
+  {
+    "id": "violence_014",
+    "crisis_type": "violence",
+    "severity": "high",
+    "title": "Free Legal Aid for Violence Victims",
+    "source": "[{'org': 'National Legal Services Authority (NALSA)', 'document_title': 'Free Legal Aid Guidelines', 'year': '2023', 'page_or_section': 'Eligibility for Victims of Violence', 'org_type': 'national_authority', 'authority_level': 'national', 'last_verified': '2024-01-10'}]",
+    "timestamp": "2024-01-15"
+  },
+  {
+    "id": "violence_015",
+    "crisis_type": "violence",
+    "severity": "high",
+    "title": "Shock After Physical Assault",
+    "source": "[{'org': 'WHO', 'document_title': 'Community First Aid Response (CFAR) Pocket Guide', 'year': '2020', 'page_or_section': 'Page 10 (Shock)', 'org_type': 'national_authority', 'authority_level': 'national', 'last_verified': '2024-01-10'}]",
+    "timestamp": "2024-01-15"
+  },
+  {
+    "id": "violence_016",
+    "crisis_type": "violence",
+    "severity": "high",
+    "title": "Child Discloses Sexual Abuse",
+    "source": "[{'org': 'Ministry of Women and Child Development (MWCD)', 'document_title': 'POCSO Act 2012', 'year': '2012', 'page_or_section': 'Section 19 (Mandatory Reporting)', 'org_type': 'national_authority', 'authority_level': 'national', 'last_verified': '2024-01-10'}]",
+    "timestamp": "2024-01-15"
+  },
+  {
+    "id": "violence_017",
+    "crisis_type": "violence",
+    "severity": "critical",
+    "title": "Eye Injury from Assault",
+    "source": "[{'org': 'Indian Red Cross Society', 'document_title': 'Indian First Aid Manual, 7th Edition', 'year': '2016', 'page_or_section': 'Page 107', 'org_type': 'national_authority', 'authority_level': 'national', 'last_verified': '2024-01-10'}]",
+    "timestamp": "2024-01-15"
+  },
+  {
+    "id": "violence_018",
+    "crisis_type": "violence",
+    "severity": "high",
+    "title": "Trapped in Building During Riot or Curfew",
+    "source": "[{'org': 'NDMA', 'document_title': 'Guidelines on Management of Crowd Disasters / Mob Violence', 'year': '2014', 'page_or_section': 'Page 58-60', 'org_type': 'national_authority', 'authority_level': 'national', 'last_verified': '2024-01-10'}]",
+    "timestamp": "2024-01-15"
+  },
+  {
+    "id": "violence_019",
+    "crisis_type": "violence",
+    "severity": "high",
+    "title": "First Aid for Strangulation or Choking Injury",
+    "source": "[{'org': 'Indian Red Cross Society', 'document_title': 'Indian First Aid Manual, 7th Edition', 'year': '2016', 'page_or_section': 'Page 113', 'org_type': 'national_authority', 'authority_level': 'national', 'last_verified': '2024-01-10'}]",
+    "timestamp": "2024-01-15"
+  },
+  {
+    "id": "violence_020",
+    "crisis_type": "violence",
+    "severity": "high",
+    "title": "Online Threat or Cyber Harassment",
+    "source": "[{'org': 'National Commission for Women (NCW)', 'document_title': 'Digital Safety Guidelines', 'year': '2023', 'page_or_section': 'Online Harassment', 'org_type': 'national_authority', 'authority_level': 'national', 'last_verified': '2024-01-10'}]",
+    "timestamp": "2024-01-15"
+  },
+  {
+    "id": "violence_021",
+    "crisis_type": "violence",
+    "severity": "high",
+    "title": "Elderly Person Facing Financial or Physical Exploitation",
+    "source": "[{'org': 'Ministry of Social Justice and Empowerment', 'document_title': 'Maintenance and Welfare of Parents and Senior Citizens Act, 2007', 'year': '2007', 'page_or_section': 'Section 4-23', 'org_type': 'national_authority', 'authority_level': 'national', 'last_verified': '2024-01-10'}]",
+    "timestamp": "2024-01-15"
+  },
+  {
+    "id": "violence_022",
+    "crisis_type": "violence",
+    "severity": "high",
+    "title": "Road Rage Incident with Weapon",
+    "source": "[{'org': 'State Police Websites', 'document_title': 'Citizen Safety Guidelines', 'year': '2023', 'page_or_section': 'Road Rage Response', 'org_type': 'national_authority', 'authority_level': 'national', 'last_verified': '2024-01-10'}]",
+    "timestamp": "2024-01-15"
+  },
+  {
+    "id": "violence_023",
+    "crisis_type": "violence",
+    "severity": "critical",
+    "title": "Unconscious Victim After Sexual Assault",
+    "source": "[{'org': 'Bureau of Police Research and Development (BPR&D)', 'document_title': 'Guidelines on Handling Sexual Assault Cases', 'year': '2021', 'page_or_section': 'Response Protocol', 'org_type': 'national_authority', 'authority_level': 'national', 'last_verified': '2024-01-10'}]",
+    "timestamp": "2024-01-15"
+  },
+  {
+    "id": "violence_024",
+    "crisis_type": "violence",
+    "severity": "high",
+    "title": "Financial Exploitation in Domestic Violence",
+    "source": "[{'org': 'The Protection of Women from Domestic Violence Act, 2005', 'document_title': 'Official Act', 'year': '2005', 'page_or_section': 'Section 20 (Monetary Relief)', 'org_type': 'national_authority', 'authority_level': 'national', 'last_verified': '2024-01-10'}]",
+    "timestamp": "2024-01-15"
+  },
+  {
+    "id": "violence_025",
+    "crisis_type": "violence",
+    "severity": "high",
+    "title": "Online Threat of Violence",
+    "source": "[{'org': 'National Commission for Women (NCW)', 'document_title': 'Digital Safety Guidelines', 'year': '2023', 'page_or_section': 'Online Harassment', 'org_type': 'national_authority', 'authority_level': 'national', 'last_verified': '2024-01-10'}]",
+    "timestamp": "2024-01-15"
+  },
+  {
+    "id": "violence_026",
+    "crisis_type": "violence",
+    "severity": "high",
+    "title": "Eviction from Shared Household in Domestic Violence",
+    "source": "[{'org': 'The Protection of Women from Domestic Violence Act, 2005', 'document_title': 'Official Act', 'year': '2005', 'page_or_section': 'Section 17 (Right to reside) & Section 19', 'org_type': 'national_authority', 'authority_level': 'national', 'last_verified': '2024-01-10'}]",
+    "timestamp": "2024-01-15"
+  },
+  {
+    "id": "violence_027",
+    "crisis_type": "violence",
+    "severity": "high",
+    "title": "First Aid for Eye Injury from Assault",
+    "source": "[{'org': 'Indian Red Cross Society', 'document_title': 'Indian First Aid Manual, 7th Edition', 'year': '2016', 'page_or_section': 'Page 107', 'org_type': 'national_authority', 'authority_level': 'national', 'last_verified': '2024-01-10'}]",
+    "timestamp": "2024-01-15"
+  },
+  {
+    "id": "violence_028",
+    "crisis_type": "violence",
+    "severity": "high",
+    "title": "Trapped in Building During Riot or Curfew",
+    "source": "[{'org': 'NDMA', 'document_title': 'Guidelines on Management of Crowd Disasters / Mob Violence', 'year': '2014', 'page_or_section': 'Page 58-60', 'org_type': 'national_authority', 'authority_level': 'national', 'last_verified': '2024-01-10'}]",
+    "timestamp": "2024-01-15"
+  },
+  {
+    "id": "violence_029",
+    "crisis_type": "violence",
+    "severity": "high",
+    "title": "First Aid for Strangulation or Choking Injury",
+    "source": "[{'org': 'Indian Red Cross Society', 'document_title': 'Indian First Aid Manual, 7th Edition', 'year': '2016', 'page_or_section': 'Page 113', 'org_type': 'national_authority', 'authority_level': 'national', 'last_verified': '2024-01-10'}]",
+    "timestamp": "2024-01-15"
+  },
+  {
+    "id": "violence_030",
+    "crisis_type": "violence",
+    "severity": "high",
+    "title": "Online Threat of Violence",
+    "source": "[{'org': 'National Commission for Women (NCW)', 'document_title': 'Digital Safety Guidelines', 'year': '2023', 'page_or_section': 'Online Harassment', 'org_type': 'national_authority', 'authority_level': 'national', 'last_verified': '2024-01-10'}]",
+    "timestamp": "2024-01-15"
+  }
+]

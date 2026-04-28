@@ -1,0 +1,19 @@
+# CrisisAI Backend Dependencies — ALL versions pinned for reproducibility
+# DO NOT upgrade versions without testing — pinned for Google Solution Challenge 2026 demo
+
+fastapi==0.110.0
+uvicorn==0.27.0
+google-generativeai==0.5.0
+faiss-cpu==1.8.0
+chromadb==0.4.24
+groq==0.5.0
+firebase-admin==6.4.0
+google-cloud-firestore==2.15.0
+sentence-transformers==2.6.1
+feedparser==6.0.11
+websockets==12.0
+httpx==0.27.0
+pydantic==2.6.4
+python-dotenv==1.0.1
+python-multipart==0.0.9
+numpy<2.0.0
